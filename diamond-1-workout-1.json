@@ -1,0 +1,975 @@
+{
+    "status": true,
+    "message": "Data found scuccessfully",
+    "data": {
+        "_id": "661afa54e5a07117b11dae70",
+        "title": "WORKOUT 1",
+        "program_id": "6613c20da5a503220bd2680f",
+        "image": "images/program/1773263755197374_media-1773263755197.webp",
+        "cycleData": {
+            "_id": "6614ff3fa5a503220bd56d35",
+            "title": "DIAMOND 1"
+        },
+        "workoutData": [
+            {
+                "_id": "661afa73e5a07117b11daef6",
+                "title": "WARM UP: 2 Rounds no rest",
+                "sort_order": 1,
+                "session_stage_detail": {
+                    "_id": "695e1cf1a6f3e9f467930e1c",
+                    "title": "Warmup",
+                    "status": 1,
+                    "created_on": 1767775467,
+                    "updated_on": 1767775467,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661afabde5a07117b11daf18",
+                        "sort_order": 1.1,
+                        "categories": [
+                            {
+                                "_id": "62b1b5e06600f91958682e7a",
+                                "title": "Strength"
+                            },
+                            {
+                                "_id": "62c4180f70b0f1278d481669",
+                                "title": "Mobility"
+                            }
+                        ],
+                        "prefix": "W1",
+                        "title": "Broad Jumps",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fce",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661afabde5a07117b11daf1c",
+                                "workout_id": "661afabde5a07117b11daf18",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "demoVideoData": {
+                                    "_id": "652e8bfd6aeca3a94fffb235",
+                                    "media": "videos/live/171_broad_jump_demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1707397619912348_thumbnail-1707397619912.webp"
+                                },
+                                "instructVideoData": {
+                                    "_id": "652e8bfd6aeca3a94fffb234",
+                                    "media": "videos/live/170_broad_jump.mp4",
+                                    "thumbnail": "videos/thumbnail/170739763871310_thumbnail-1707397638714.webp"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fce",
+                                "prefix": "W1",
+                                "exercise_name": "Broad Jumps",
+                                "progression_exercise_name": "Broad Jumps"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661afabde5a07117b11daf1c",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "categories": [
+                                {
+                                    "_id": "62b1b5e06600f91958682e7a",
+                                    "title": "Strength"
+                                },
+                                {
+                                    "_id": "62c4180f70b0f1278d481669",
+                                    "title": "Mobility"
+                                }
+                            ],
+                            "demoVideoData": {
+                                "_id": "652e8bfd6aeca3a94fffb235",
+                                "media": "videos/live/171_broad_jump_demo.mp4",
+                                "thumbnail": "videos/thumbnail/1707397619912348_thumbnail-1707397619912.webp"
+                            },
+                            "instructVideoData": {
+                                "_id": "652e8bfd6aeca3a94fffb234",
+                                "media": "videos/live/170_broad_jump.mp4",
+                                "thumbnail": "videos/thumbnail/170739763871310_thumbnail-1707397638714.webp"
+                            },
+                            "prefix": "W1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fce",
+                            "exercise_name": "Broad Jumps",
+                            "progression_exercise_name": "Broad Jumps",
+                            "demo_video_gallery_id": "652e8bfd6aeca3a94fffb235",
+                            "instruct_video_gallery_id": "652e8bfd6aeca3a94fffb234",
+                            "sets": [
+                                {
+                                    "_id": "661afae5e5a07117b11daf27",
+                                    "title": "6",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661afae5e5a07117b11daf28",
+                                    "title": "6",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661afb25e5a07117b11daf41",
+                        "sort_order": 1.2,
+                        "categories": [
+                            {
+                                "_id": "62c4180f70b0f1278d481669",
+                                "title": "Mobility"
+                            }
+                        ],
+                        "prefix": "b2",
+                        "title": "Table Top Press",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0f53",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661afb25e5a07117b11daf45",
+                                "workout_id": "661afb25e5a07117b11daf41",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "demoVideoData": {
+                                    "_id": "6529272a375d532164540f6f",
+                                    "media": "videos/live/table_top_press_demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1707461082053675_thumbnail-1707461082054.webp"
+                                },
+                                "instructVideoData": {
+                                    "_id": "6529272a375d532164540f70",
+                                    "media": "videos/live/table_top_press.mp4",
+                                    "thumbnail": "videos/thumbnail/1707461067884949_thumbnail-1707461067884.webp"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0f53",
+                                "prefix": "b2",
+                                "exercise_name": "Table Top Press",
+                                "progression_exercise_name": "Table Top Press"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661afb25e5a07117b11daf45",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "categories": [
+                                {
+                                    "_id": "62c4180f70b0f1278d481669",
+                                    "title": "Mobility"
+                                }
+                            ],
+                            "demoVideoData": {
+                                "_id": "6529272a375d532164540f6f",
+                                "media": "videos/live/table_top_press_demo.mp4",
+                                "thumbnail": "videos/thumbnail/1707461082053675_thumbnail-1707461082054.webp"
+                            },
+                            "instructVideoData": {
+                                "_id": "6529272a375d532164540f70",
+                                "media": "videos/live/table_top_press.mp4",
+                                "thumbnail": "videos/thumbnail/1707461067884949_thumbnail-1707461067884.webp"
+                            },
+                            "prefix": "b2",
+                            "exercise_id": "69651e9fcca4b455bc2d0f53",
+                            "exercise_name": "Table Top Press",
+                            "progression_exercise_name": "Table Top Press",
+                            "demo_video_gallery_id": "6529272a375d532164540f6f",
+                            "instruct_video_gallery_id": "6529272a375d532164540f70",
+                            "sets": [
+                                {
+                                    "_id": "661afb9be5a07117b11daf92",
+                                    "title": "10",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661afb9be5a07117b11daf91",
+                                    "title": "10",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661afb63e5a07117b11daf59",
+                        "sort_order": 1.3,
+                        "categories": [],
+                        "prefix": "W3",
+                        "title": "Squeeze & Twist",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fcf",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661afb63e5a07117b11daf5d",
+                                "workout_id": "661afb63e5a07117b11daf59",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66176d7feb5488ec0454bdf1",
+                                    "media": "videos/video_gallery/1712811391000_0_squeeze and twist demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811391000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176db7eb5488ec0454be1b",
+                                    "media": "videos/video_gallery/1712811446000_0_squeeze and twist_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811446000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcf",
+                                "prefix": "W3",
+                                "exercise_name": "Squeeze & Twist",
+                                "progression_exercise_name": "Squeeze & Twist"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661afb63e5a07117b11daf5d",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66176d7feb5488ec0454bdf1",
+                                "media": "videos/video_gallery/1712811391000_0_squeeze and twist demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712811391000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176db7eb5488ec0454be1b",
+                                "media": "videos/video_gallery/1712811446000_0_squeeze and twist_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712811446000_0_thumbnail_0.png"
+                            },
+                            "prefix": "W3",
+                            "exercise_id": "69651e9fcca4b455bc2d0fcf",
+                            "exercise_name": "Squeeze & Twist",
+                            "progression_exercise_name": "Squeeze & Twist",
+                            "demo_video_gallery_id": "66176d7feb5488ec0454bdf1",
+                            "instruct_video_gallery_id": "66176db7eb5488ec0454be1b",
+                            "sets": [
+                                {
+                                    "_id": "661afb8ae5a07117b11daf81",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661afb8ae5a07117b11daf80",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "661afa7ae5a07117b11daefd",
+                "title": "PRIMARY: Rest 90 sec after exercise 2",
+                "sort_order": 2,
+                "session_stage_detail": {
+                    "_id": "695e2ad5f0bd1bca53affaad",
+                    "title": "Primary",
+                    "status": 1,
+                    "created_on": 1767779029,
+                    "updated_on": 1767779029,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661affade5a07117b11db28d",
+                        "sort_order": 2.2,
+                        "categories": [],
+                        "prefix": "A1",
+                        "title": "Atlas Squat",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fd0",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661affade5a07117b11db291",
+                                "workout_id": "661affade5a07117b11db28d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "661758f8eb5488ec045469dd",
+                                    "media": "videos/video_gallery/1712806135000_0_atlas squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806135000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175924eb5488ec04546a20",
+                                    "media": "videos/video_gallery/1712806179000_0_atlas squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806179000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd0",
+                                "prefix": "A1",
+                                "exercise_name": "Atlas Squat",
+                                "progression_exercise_name": "Atlas Squat"
+                            },
+                            {
+                                "_id": "661b0012e5a07117b11db345",
+                                "workout_id": "661affade5a07117b11db28d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 2,
+                                "demoVideoData": {
+                                    "_id": "661758f8eb5488ec045469dd",
+                                    "media": "videos/video_gallery/1712806135000_0_atlas squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806135000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175924eb5488ec04546a20",
+                                    "media": "videos/video_gallery/1712806179000_0_atlas squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806179000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd0",
+                                "prefix": "A1",
+                                "exercise_name": "Atlas Squat",
+                                "progression_exercise_name": "Atlas Squat"
+                            },
+                            {
+                                "_id": "661b0047e5a07117b11db35f",
+                                "workout_id": "661affade5a07117b11db28d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 3,
+                                "demoVideoData": {
+                                    "_id": "661758f8eb5488ec045469dd",
+                                    "media": "videos/video_gallery/1712806135000_0_atlas squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806135000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175924eb5488ec04546a20",
+                                    "media": "videos/video_gallery/1712806179000_0_atlas squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806179000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd0",
+                                "prefix": "A1",
+                                "exercise_name": "Atlas Squat",
+                                "progression_exercise_name": "Atlas Squat"
+                            },
+                            {
+                                "_id": "661b0073e5a07117b11db37a",
+                                "workout_id": "661affade5a07117b11db28d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 4,
+                                "demoVideoData": {
+                                    "_id": "661758f8eb5488ec045469dd",
+                                    "media": "videos/video_gallery/1712806135000_0_atlas squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806135000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175924eb5488ec04546a20",
+                                    "media": "videos/video_gallery/1712806179000_0_atlas squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806179000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd0",
+                                "prefix": "A1",
+                                "exercise_name": "Atlas Squat",
+                                "progression_exercise_name": "Atlas Squat"
+                            },
+                            {
+                                "_id": "661b009ce5a07117b11db39a",
+                                "workout_id": "661affade5a07117b11db28d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 5,
+                                "demoVideoData": {
+                                    "_id": "661758f8eb5488ec045469dd",
+                                    "media": "videos/video_gallery/1712806135000_0_atlas squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806135000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175924eb5488ec04546a20",
+                                    "media": "videos/video_gallery/1712806179000_0_atlas squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806179000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd0",
+                                "prefix": "A1",
+                                "exercise_name": "Atlas Squat",
+                                "progression_exercise_name": "Atlas Squat"
+                            },
+                            {
+                                "_id": "661b00c5e5a07117b11db3b4",
+                                "workout_id": "661affade5a07117b11db28d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 6,
+                                "demoVideoData": {
+                                    "_id": "661758f8eb5488ec045469dd",
+                                    "media": "videos/video_gallery/1712806135000_0_atlas squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806135000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175924eb5488ec04546a20",
+                                    "media": "videos/video_gallery/1712806179000_0_atlas squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806179000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd0",
+                                "prefix": "A1",
+                                "exercise_name": "Atlas Squat",
+                                "progression_exercise_name": "Atlas Squat"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 6,
+                        "allProgression": {
+                            "_id": "661affade5a07117b11db291",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "661758f8eb5488ec045469dd",
+                                "media": "videos/video_gallery/1712806135000_0_atlas squat demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712806135000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175924eb5488ec04546a20",
+                                "media": "videos/video_gallery/1712806179000_0_atlas squat_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712806179000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fd0",
+                            "exercise_name": "Atlas Squat",
+                            "progression_exercise_name": "Atlas Squat",
+                            "demo_video_gallery_id": "661758f8eb5488ec045469dd",
+                            "instruct_video_gallery_id": "66175924eb5488ec04546a20",
+                            "sets": [
+                                {
+                                    "_id": "661affc0e5a07117b11db29e",
+                                    "title": "3 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661affc0e5a07117b11db29d",
+                                    "title": "3 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661affc0e5a07117b11db29c",
+                                    "title": "3 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            6
+                        ]
+                    },
+                    {
+                        "_id": "661b0177e5a07117b11db430",
+                        "sort_order": 2.3,
+                        "categories": [],
+                        "prefix": "A2",
+                        "title": "Shoulder To Shoulder Press",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fd2",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b0177e5a07117b11db434",
+                                "workout_id": "661b0177e5a07117b11db430",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "rest_time_after_exercise": 90,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66176b4deb5488ec0454bbd3",
+                                    "media": "videos/video_gallery/1712810829000_0_shoulder to shoulder demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810829000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176ba3eb5488ec0454bcee",
+                                    "media": "videos/video_gallery/1712810914000_0_shoulder to shoulder_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810914000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd2",
+                                "prefix": "A2",
+                                "exercise_name": "Shoulder To Shoulder Press",
+                                "progression_exercise_name": "Shoulder to Shoulder Press"
+                            },
+                            {
+                                "_id": "661b01e8e5a07117b11db463",
+                                "workout_id": "661b0177e5a07117b11db430",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 2,
+                                "demoVideoData": {
+                                    "_id": "66176b4deb5488ec0454bbd3",
+                                    "media": "videos/video_gallery/1712810829000_0_shoulder to shoulder demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810829000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176ba3eb5488ec0454bcee",
+                                    "media": "videos/video_gallery/1712810914000_0_shoulder to shoulder_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810914000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd2",
+                                "prefix": "A2",
+                                "exercise_name": "Shoulder To Shoulder Press",
+                                "progression_exercise_name": "Shoulder to Shoulder Press"
+                            },
+                            {
+                                "_id": "661b0210e5a07117b11db47d",
+                                "workout_id": "661b0177e5a07117b11db430",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 3,
+                                "demoVideoData": {
+                                    "_id": "66176b4deb5488ec0454bbd3",
+                                    "media": "videos/video_gallery/1712810829000_0_shoulder to shoulder demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810829000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176ba3eb5488ec0454bcee",
+                                    "media": "videos/video_gallery/1712810914000_0_shoulder to shoulder_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810914000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd2",
+                                "prefix": "A2",
+                                "exercise_name": "Shoulder To Shoulder Press",
+                                "progression_exercise_name": "Shoulder to Shoulder Press"
+                            },
+                            {
+                                "_id": "661b024ee5a07117b11db498",
+                                "workout_id": "661b0177e5a07117b11db430",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 4,
+                                "demoVideoData": {
+                                    "_id": "66176b4deb5488ec0454bbd3",
+                                    "media": "videos/video_gallery/1712810829000_0_shoulder to shoulder demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810829000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176ba3eb5488ec0454bcee",
+                                    "media": "videos/video_gallery/1712810914000_0_shoulder to shoulder_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810914000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd2",
+                                "prefix": "A2",
+                                "exercise_name": "Shoulder To Shoulder Press",
+                                "progression_exercise_name": "Shoulder to Shoulder Press"
+                            },
+                            {
+                                "_id": "661b027ae5a07117b11db4f3",
+                                "workout_id": "661b0177e5a07117b11db430",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 5,
+                                "demoVideoData": {
+                                    "_id": "66176b4deb5488ec0454bbd3",
+                                    "media": "videos/video_gallery/1712810829000_0_shoulder to shoulder demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810829000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176ba3eb5488ec0454bcee",
+                                    "media": "videos/video_gallery/1712810914000_0_shoulder to shoulder_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810914000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd2",
+                                "prefix": "A2",
+                                "exercise_name": "Shoulder To Shoulder Press",
+                                "progression_exercise_name": "Shoulder to Shoulder Press"
+                            },
+                            {
+                                "_id": "661b02b5e5a07117b11db50d",
+                                "workout_id": "661b0177e5a07117b11db430",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 6,
+                                "demoVideoData": {
+                                    "_id": "66176b4deb5488ec0454bbd3",
+                                    "media": "videos/video_gallery/1712810829000_0_shoulder to shoulder demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810829000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176ba3eb5488ec0454bcee",
+                                    "media": "videos/video_gallery/1712810914000_0_shoulder to shoulder_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810914000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd2",
+                                "prefix": "A2",
+                                "exercise_name": "Shoulder To Shoulder Press",
+                                "progression_exercise_name": "Shoulder to Shoulder Press"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 6,
+                        "allProgression": {
+                            "_id": "661b0177e5a07117b11db434",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "rest_time_after_exercise": 90,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66176b4deb5488ec0454bbd3",
+                                "media": "videos/video_gallery/1712810829000_0_shoulder to shoulder demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712810829000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176ba3eb5488ec0454bcee",
+                                "media": "videos/video_gallery/1712810914000_0_shoulder to shoulder_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712810914000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fd2",
+                            "exercise_name": "Shoulder To Shoulder Press",
+                            "progression_exercise_name": "Shoulder to Shoulder Press",
+                            "demo_video_gallery_id": "66176b4deb5488ec0454bbd3",
+                            "instruct_video_gallery_id": "66176ba3eb5488ec0454bcee",
+                            "sets": [
+                                {
+                                    "_id": "661b01b3e5a07117b11db43f",
+                                    "title": "3 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b01b3e5a07117b11db441",
+                                    "title": "3 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b01b3e5a07117b11db440",
+                                    "title": "3 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            6
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "661afa84e5a07117b11daf04",
+                "title": "ACCESSORY: Rest 60 sec after exercise 2",
+                "sort_order": 3,
+                "session_stage_detail": {
+                    "_id": "695e2b0af0bd1bca53affacc",
+                    "title": "Accessory",
+                    "status": 1,
+                    "created_on": 1767779082,
+                    "updated_on": 1767779082,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661b034ee5a07117b11db54d",
+                        "sort_order": 3.1,
+                        "categories": [],
+                        "prefix": "B1",
+                        "title": "Sandbag Bench Press",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fd3",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b034ee5a07117b11db551",
+                                "workout_id": "661b034ee5a07117b11db54d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175d13eb5488ec04546edf",
+                                    "media": "videos/video_gallery/1712807186000_0_bench press demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807186000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175d46eb5488ec045480d5",
+                                    "media": "videos/video_gallery/1712807237000_0_bench press_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807237000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd3",
+                                "prefix": "B1",
+                                "exercise_name": "Sandbag Bench Press",
+                                "progression_exercise_name": "Sandbag Bench Press"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b034ee5a07117b11db551",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175d13eb5488ec04546edf",
+                                "media": "videos/video_gallery/1712807186000_0_bench press demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712807186000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175d46eb5488ec045480d5",
+                                "media": "videos/video_gallery/1712807237000_0_bench press_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712807237000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fd3",
+                            "exercise_name": "Sandbag Bench Press",
+                            "progression_exercise_name": "Sandbag Bench Press",
+                            "demo_video_gallery_id": "66175d13eb5488ec04546edf",
+                            "instruct_video_gallery_id": "66175d46eb5488ec045480d5",
+                            "sets": [
+                                {
+                                    "_id": "661b0395e5a07117b11db55d",
+                                    "title": "5 - 8",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b0395e5a07117b11db55c",
+                                    "title": "5 - 8",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661b049ee5a07117b11db647",
+                        "sort_order": 3.2,
+                        "categories": [],
+                        "prefix": "B2",
+                        "title": "Brear Hug Squat",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fd4",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b049ee5a07117b11db64b",
+                                "workout_id": "661b049ee5a07117b11db647",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "rest_time_after_exercise": 60,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175bf2eb5488ec04546d7f",
+                                    "media": "videos/video_gallery/1712806898000_0_bear hug squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806898000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175c1ceb5488ec04546d84",
+                                    "media": "videos/video_gallery/1712806939000_0_bear hug squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806939000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd4",
+                                "prefix": "B2",
+                                "exercise_name": "Brear Hug Squat",
+                                "progression_exercise_name": "Bear Hug Squat"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b049ee5a07117b11db64b",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "rest_time_after_exercise": 60,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175bf2eb5488ec04546d7f",
+                                "media": "videos/video_gallery/1712806898000_0_bear hug squat demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712806898000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175c1ceb5488ec04546d84",
+                                "media": "videos/video_gallery/1712806939000_0_bear hug squat_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712806939000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fd4",
+                            "exercise_name": "Brear Hug Squat",
+                            "progression_exercise_name": "Bear Hug Squat",
+                            "demo_video_gallery_id": "66175bf2eb5488ec04546d7f",
+                            "instruct_video_gallery_id": "66175c1ceb5488ec04546d84",
+                            "sets": [
+                                {
+                                    "_id": "661b04c5e5a07117b11db65e",
+                                    "title": "100",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b04c5e5a07117b11db65f",
+                                    "title": "100",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            }
+        ],
+        "canCompleteSession": false,
+        "isAlreadyCompleted": 0
+    }
+}

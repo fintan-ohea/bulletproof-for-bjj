@@ -1,0 +1,872 @@
+{
+    "status": true,
+    "message": "Data found scuccessfully",
+    "data": {
+        "_id": "661b0a72e5a07117b11dcef7",
+        "title": "WORKOUT 2",
+        "program_id": "6613c20da5a503220bd2680f",
+        "image": "images/program/1773264085898956_media-1773264085898.webp",
+        "cycleData": {
+            "_id": "6614ffa0a5a503220bd56d4d",
+            "title": "DIAMOND 2"
+        },
+        "workoutData": [
+            {
+                "_id": "661b0aa6e5a07117b11dcf35",
+                "title": "WARM UP: 2 rounds no rest",
+                "sort_order": 1,
+                "session_stage_detail": {
+                    "_id": "695e1cf1a6f3e9f467930e1c",
+                    "title": "Warmup",
+                    "status": 1,
+                    "created_on": 1767775467,
+                    "updated_on": 1767775467,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661b444ae5a07117b11e1ef4",
+                        "sort_order": 1.1,
+                        "categories": [],
+                        "prefix": "W1",
+                        "title": "Kettlebell Swing",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fc1",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b444ae5a07117b11e1ef8",
+                                "workout_id": "661b444ae5a07117b11e1ef4",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "652ea6b46aeca3a94fffb2f7",
+                                    "media": "videos/live/kettlebell_swing_demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1707389638653117_thumbnail-1707389638654.webp"
+                                },
+                                "instructVideoData": {
+                                    "_id": "652ea6b46aeca3a94fffb2f8",
+                                    "media": "videos/live/kettlebell_swing.mp4",
+                                    "thumbnail": "videos/thumbnail/1707389631350488_thumbnail-1707389631350.webp"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fc1",
+                                "prefix": "W1",
+                                "exercise_name": "Kettlebell Swing",
+                                "progression_exercise_name": "Kettlebell Swing"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b444ae5a07117b11e1ef8",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "652ea6b46aeca3a94fffb2f7",
+                                "media": "videos/live/kettlebell_swing_demo.mp4",
+                                "thumbnail": "videos/thumbnail/1707389638653117_thumbnail-1707389638654.webp"
+                            },
+                            "instructVideoData": {
+                                "_id": "652ea6b46aeca3a94fffb2f8",
+                                "media": "videos/live/kettlebell_swing.mp4",
+                                "thumbnail": "videos/thumbnail/1707389631350488_thumbnail-1707389631350.webp"
+                            },
+                            "prefix": "W1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fc1",
+                            "exercise_name": "Kettlebell Swing",
+                            "progression_exercise_name": "Kettlebell Swing",
+                            "demo_video_gallery_id": "652ea6b46aeca3a94fffb2f7",
+                            "instruct_video_gallery_id": "652ea6b46aeca3a94fffb2f8",
+                            "sets": [
+                                {
+                                    "_id": "661b445ce5a07117b11e1f04",
+                                    "title": "10",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 12,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b445ce5a07117b11e1f03",
+                                    "title": "10",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 12,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661b44a4e5a07117b11e1f1d",
+                        "sort_order": 1.2,
+                        "categories": [
+                            {
+                                "_id": "62b1b5e06600f91958682e7a",
+                                "title": "Strength"
+                            },
+                            {
+                                "_id": "62c4180f70b0f1278d481669",
+                                "title": "Mobility"
+                            }
+                        ],
+                        "prefix": "W2",
+                        "title": "Broad Hop & Stabilise",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fc5",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b44a4e5a07117b11e1f21",
+                                "workout_id": "661b44a4e5a07117b11e1f1d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "demoVideoData": {
+                                    "_id": "652e9b6be6591678e63b1d4c",
+                                    "media": "videos/live/broad_hop_and_stabilize_demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1707391720916469_thumbnail-1707391720916.webp"
+                                },
+                                "instructVideoData": {
+                                    "_id": "652e9b6be6591678e63b1d4b",
+                                    "media": "videos/live/broad_hop_and_stabilise_lvl1_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1707391738863369_thumbnail-1707391738863.webp"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fc5",
+                                "prefix": "W2",
+                                "exercise_name": "Broad Hop & Stabilise",
+                                "progression_exercise_name": "Broad Hop & Stabilise"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b44a4e5a07117b11e1f21",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "categories": [
+                                {
+                                    "_id": "62b1b5e06600f91958682e7a",
+                                    "title": "Strength"
+                                },
+                                {
+                                    "_id": "62c4180f70b0f1278d481669",
+                                    "title": "Mobility"
+                                }
+                            ],
+                            "demoVideoData": {
+                                "_id": "652e9b6be6591678e63b1d4c",
+                                "media": "videos/live/broad_hop_and_stabilize_demo.mp4",
+                                "thumbnail": "videos/thumbnail/1707391720916469_thumbnail-1707391720916.webp"
+                            },
+                            "instructVideoData": {
+                                "_id": "652e9b6be6591678e63b1d4b",
+                                "media": "videos/live/broad_hop_and_stabilise_lvl1_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1707391738863369_thumbnail-1707391738863.webp"
+                            },
+                            "prefix": "W2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fc5",
+                            "exercise_name": "Broad Hop & Stabilise",
+                            "progression_exercise_name": "Broad Hop & Stabilise",
+                            "demo_video_gallery_id": "652e9b6be6591678e63b1d4c",
+                            "instruct_video_gallery_id": "652e9b6be6591678e63b1d4b",
+                            "sets": [
+                                {
+                                    "_id": "661b44d0e5a07117b11e1f2d",
+                                    "title": "10 each",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b44d0e5a07117b11e1f2c",
+                                    "title": "10 each",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661b4524e5a07117b11e1f46",
+                        "sort_order": 1.3,
+                        "categories": [],
+                        "prefix": "A1",
+                        "title": "All In One Motion",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fca",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b4524e5a07117b11e1f4a",
+                                "workout_id": "661b4524e5a07117b11e1f46",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66176ca9eb5488ec0454bd93",
+                                    "media": "videos/video_gallery/1712811176000_0_shouldering AIOM demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811176000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176c59eb5488ec0454bd4c",
+                                    "media": "videos/video_gallery/1712811096000_0_shouldering AIOM_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811096000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fca",
+                                "prefix": "A1",
+                                "exercise_name": "All In One Motion",
+                                "progression_exercise_name": "All In One Motion"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b4524e5a07117b11e1f4a",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66176ca9eb5488ec0454bd93",
+                                "media": "videos/video_gallery/1712811176000_0_shouldering AIOM demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712811176000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176c59eb5488ec0454bd4c",
+                                "media": "videos/video_gallery/1712811096000_0_shouldering AIOM_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712811096000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fca",
+                            "exercise_name": "All In One Motion",
+                            "progression_exercise_name": "All In One Motion",
+                            "demo_video_gallery_id": "66176ca9eb5488ec0454bd93",
+                            "instruct_video_gallery_id": "66176c59eb5488ec0454bd4c",
+                            "sets": [
+                                {
+                                    "_id": "661b4544e5a07117b11e1f56",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b4544e5a07117b11e1f55",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "661b0aade5a07117b11dcf42",
+                "title": "PRIMARY: Rest 90 sec between sets",
+                "sort_order": 2,
+                "session_stage_detail": {
+                    "_id": "695e2ad5f0bd1bca53affaad",
+                    "title": "Primary",
+                    "status": 1,
+                    "created_on": 1767779029,
+                    "updated_on": 1767779029,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661b4581e5a07117b11e1f76",
+                        "sort_order": 2.1,
+                        "categories": [],
+                        "prefix": "A1",
+                        "title": "Sandbag Shouldering",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fb9",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b4581e5a07117b11e1f7a",
+                                "workout_id": "661b4581e5a07117b11e1f76",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "rest_time_after_exercise": 90,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "6619ff02e5a07117b11b9dd4",
+                                    "media": "videos/video_gallery/1712979713000_0_shouldering demo (1).mp4",
+                                    "thumbnail": "videos/thumbnail/1712979713000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176d4feb5488ec0454bdce",
+                                    "media": "videos/video_gallery/1712811342000_0_shouldering_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811342000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb9",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Shouldering",
+                                "progression_exercise_name": "Sandbag Shouldering"
+                            },
+                            {
+                                "_id": "661b45d7e5a07117b11e1fa4",
+                                "workout_id": "661b4581e5a07117b11e1f76",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 2,
+                                "demoVideoData": {
+                                    "_id": "6619ff02e5a07117b11b9dd4",
+                                    "media": "videos/video_gallery/1712979713000_0_shouldering demo (1).mp4",
+                                    "thumbnail": "videos/thumbnail/1712979713000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176d4feb5488ec0454bdce",
+                                    "media": "videos/video_gallery/1712811342000_0_shouldering_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811342000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb9",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Shouldering",
+                                "progression_exercise_name": "Sandbag Shouldering"
+                            },
+                            {
+                                "_id": "661b4607e5a07117b11e1fc2",
+                                "workout_id": "661b4581e5a07117b11e1f76",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 3,
+                                "demoVideoData": {
+                                    "_id": "6619ff02e5a07117b11b9dd4",
+                                    "media": "videos/video_gallery/1712979713000_0_shouldering demo (1).mp4",
+                                    "thumbnail": "videos/thumbnail/1712979713000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176d4feb5488ec0454bdce",
+                                    "media": "videos/video_gallery/1712811342000_0_shouldering_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811342000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb9",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Shouldering",
+                                "progression_exercise_name": "Sandbag Shouldering"
+                            },
+                            {
+                                "_id": "661b4840e5a07117b11e2102",
+                                "workout_id": "661b4581e5a07117b11e1f76",
+                                "workout_count": null,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 4,
+                                "demoVideoData": {
+                                    "_id": "6619ff02e5a07117b11b9dd4",
+                                    "media": "videos/video_gallery/1712979713000_0_shouldering demo (1).mp4",
+                                    "thumbnail": "videos/thumbnail/1712979713000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176d4feb5488ec0454bdce",
+                                    "media": "videos/video_gallery/1712811342000_0_shouldering_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811342000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb9",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Shouldering",
+                                "progression_exercise_name": "Sandbag Shouldering"
+                            },
+                            {
+                                "_id": "661b4860e5a07117b11e2118",
+                                "workout_id": "661b4581e5a07117b11e1f76",
+                                "workout_count": null,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 5,
+                                "demoVideoData": {
+                                    "_id": "6619ff02e5a07117b11b9dd4",
+                                    "media": "videos/video_gallery/1712979713000_0_shouldering demo (1).mp4",
+                                    "thumbnail": "videos/thumbnail/1712979713000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176d4feb5488ec0454bdce",
+                                    "media": "videos/video_gallery/1712811342000_0_shouldering_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811342000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb9",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Shouldering",
+                                "progression_exercise_name": "Sandbag Shouldering"
+                            },
+                            {
+                                "_id": "661b48a2e5a07117b11e212f",
+                                "workout_id": "661b4581e5a07117b11e1f76",
+                                "workout_count": null,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 6,
+                                "demoVideoData": {
+                                    "_id": "6619ff02e5a07117b11b9dd4",
+                                    "media": "videos/video_gallery/1712979713000_0_shouldering demo (1).mp4",
+                                    "thumbnail": "videos/thumbnail/1712979713000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176d4feb5488ec0454bdce",
+                                    "media": "videos/video_gallery/1712811342000_0_shouldering_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811342000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb9",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Shouldering",
+                                "progression_exercise_name": "Sandbag Shouldering"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 6,
+                        "allProgression": {
+                            "_id": "661b4581e5a07117b11e1f7a",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "rest_time_after_exercise": 90,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "6619ff02e5a07117b11b9dd4",
+                                "media": "videos/video_gallery/1712979713000_0_shouldering demo (1).mp4",
+                                "thumbnail": "videos/thumbnail/1712979713000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176d4feb5488ec0454bdce",
+                                "media": "videos/video_gallery/1712811342000_0_shouldering_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712811342000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fb9",
+                            "exercise_name": "Sandbag Shouldering",
+                            "progression_exercise_name": "Sandbag Shouldering",
+                            "demo_video_gallery_id": "6619ff02e5a07117b11b9dd4",
+                            "instruct_video_gallery_id": "66176d4feb5488ec0454bdce",
+                            "sets": [
+                                {
+                                    "_id": "661b459ee5a07117b11e1f8f",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 40,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b459ee5a07117b11e1f91",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 40,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b459ee5a07117b11e1f90",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 40,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            6
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "661b0ab4e5a07117b11dcf49",
+                "title": "ACCESSORY: Rest 60 sec after exercise 3",
+                "sort_order": 3,
+                "session_stage_detail": {
+                    "_id": "695e2b0af0bd1bca53affacc",
+                    "title": "Accessory",
+                    "status": 1,
+                    "created_on": 1767779082,
+                    "updated_on": 1767779082,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661b49f7e5a07117b11e2203",
+                        "sort_order": 3.1,
+                        "categories": [],
+                        "prefix": "B1",
+                        "title": "Shoulder To Shoulder Clean",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b49f7e5a07117b11e2207",
+                                "workout_id": "661b49f7e5a07117b11e2203",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66176ae2eb5488ec0454baa6",
+                                    "media": "videos/video_gallery/1712810722000_0_shoulder to shoulder clean demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810722000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176b13eb5488ec0454baf1",
+                                    "media": "videos/video_gallery/1712810770000_0_shoulder to shoulder clean_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810770000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                                "prefix": "B1",
+                                "exercise_name": "Shoulder To Shoulder Clean",
+                                "progression_exercise_name": "Shoulder To Shoulder Clean"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b49f7e5a07117b11e2207",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66176ae2eb5488ec0454baa6",
+                                "media": "videos/video_gallery/1712810722000_0_shoulder to shoulder clean demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712810722000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176b13eb5488ec0454baf1",
+                                "media": "videos/video_gallery/1712810770000_0_shoulder to shoulder clean_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712810770000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                            "exercise_name": "Shoulder To Shoulder Clean",
+                            "progression_exercise_name": "Shoulder To Shoulder Clean",
+                            "demo_video_gallery_id": "66176ae2eb5488ec0454baa6",
+                            "instruct_video_gallery_id": "66176b13eb5488ec0454baf1",
+                            "sets": [
+                                {
+                                    "_id": "661b4a09e5a07117b11e2236",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b4a09e5a07117b11e2238",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b4a09e5a07117b11e2237",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661b504ee5a07117b11e2478",
+                        "sort_order": 3.2,
+                        "categories": [],
+                        "prefix": "A2",
+                        "title": "Sandbag Rows",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fb0",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b504ee5a07117b11e247c",
+                                "workout_id": "661b504ee5a07117b11e2478",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175d69eb5488ec04548100",
+                                    "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175dabeb5488ec0454811e",
+                                    "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb0",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Rows",
+                                "progression_exercise_name": "Sandbag Rows"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b504ee5a07117b11e247c",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175d69eb5488ec04548100",
+                                "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175dabeb5488ec0454811e",
+                                "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fb0",
+                            "exercise_name": "Sandbag Rows",
+                            "progression_exercise_name": "Sandbag Rows",
+                            "demo_video_gallery_id": "66175d69eb5488ec04548100",
+                            "instruct_video_gallery_id": "66175dabeb5488ec0454811e",
+                            "sets": [
+                                {
+                                    "_id": "661b5062e5a07117b11e2491",
+                                    "title": "8 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 40,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b5062e5a07117b11e248f",
+                                    "title": "8 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 40,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b5062e5a07117b11e2490",
+                                    "title": "8 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 40,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661b50b3e5a07117b11e24aa",
+                        "sort_order": 3.3,
+                        "categories": [],
+                        "prefix": "B3",
+                        "title": "Barrel Carry",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fdc",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b50b3e5a07117b11e24ae",
+                                "workout_id": "661b50b3e5a07117b11e24aa",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "rest_time_after_exercise": 60,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66175a63eb5488ec04546c12",
+                                    "media": "videos/video_gallery/1712806498000_0_barrell carry demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806498000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175a19eb5488ec04546bfd",
+                                    "media": "videos/video_gallery/1712806424000_0_barrel carry_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806424000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fdc",
+                                "prefix": "B3",
+                                "exercise_name": "Barrel Carry",
+                                "progression_exercise_name": "Barrel Carry"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b50b3e5a07117b11e24ae",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "rest_time_after_exercise": 60,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175a63eb5488ec04546c12",
+                                "media": "videos/video_gallery/1712806498000_0_barrell carry demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712806498000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175a19eb5488ec04546bfd",
+                                "media": "videos/video_gallery/1712806424000_0_barrel carry_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712806424000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B3",
+                            "exercise_id": "69651e9fcca4b455bc2d0fdc",
+                            "exercise_name": "Barrel Carry",
+                            "progression_exercise_name": "Barrel Carry",
+                            "demo_video_gallery_id": "66175a63eb5488ec04546c12",
+                            "instruct_video_gallery_id": "66175a19eb5488ec04546bfd",
+                            "sets": [
+                                {
+                                    "_id": "661b50c6e5a07117b11e24ba",
+                                    "title": "1",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b50c6e5a07117b11e24b9",
+                                    "title": "1",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b50c6e5a07117b11e24bb",
+                                    "title": "1",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            }
+        ],
+        "canCompleteSession": false,
+        "isAlreadyCompleted": 0
+    }
+}

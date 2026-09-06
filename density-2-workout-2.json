@@ -1,0 +1,982 @@
+{
+    "status": true,
+    "message": "Data found scuccessfully",
+    "data": {
+        "_id": "661a40b2e5a07117b11bd7a2",
+        "title": "WORKOUT 2",
+        "program_id": "6613c20da5a503220bd2680f",
+        "image": "images/program/1773263695103457_media-1773263695103.webp",
+        "cycleData": {
+            "_id": "6614fbd7a5a503220bd56b2b",
+            "title": "DENSITY 2"
+        },
+        "workoutData": [
+            {
+                "_id": "661ae69ee5a07117b11d56e4",
+                "title": "WARM UP: 2 Rounds no rest",
+                "sort_order": 1,
+                "session_stage_detail": {
+                    "_id": "695e1cf1a6f3e9f467930e1c",
+                    "title": "Warmup",
+                    "status": 1,
+                    "created_on": 1767775467,
+                    "updated_on": 1767775467,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661af189e5a07117b11d927f",
+                        "sort_order": 1.1,
+                        "categories": [],
+                        "prefix": "W1",
+                        "title": "Single Leg Deadlift",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fc9",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661af189e5a07117b11d9283",
+                                "workout_id": "661af189e5a07117b11d927f",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "This can be done with a Light Kettlebell, dumbbell or weight plate.",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "652e8bfd6aeca3a94fffb265",
+                                    "media": "videos/live/501_kb_single_leg_deadlift_dem.mp4",
+                                    "thumbnail": "videos/thumbnail/170739573352899_thumbnail-1707395733528.webp"
+                                },
+                                "instructVideoData": {
+                                    "_id": "652e8bfd6aeca3a94fffb263",
+                                    "media": "videos/live/500_kb_single_leg_deadlift.mp4",
+                                    "thumbnail": "videos/thumbnail/1707395757292371_thumbnail-1707395757292.webp"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fc9",
+                                "prefix": "W1",
+                                "exercise_name": "Single Leg Deadlift",
+                                "progression_exercise_name": "Single Leg Deadlift"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661af189e5a07117b11d9283",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "652e8bfd6aeca3a94fffb265",
+                                "media": "videos/live/501_kb_single_leg_deadlift_dem.mp4",
+                                "thumbnail": "videos/thumbnail/170739573352899_thumbnail-1707395733528.webp"
+                            },
+                            "instructVideoData": {
+                                "_id": "652e8bfd6aeca3a94fffb263",
+                                "media": "videos/live/500_kb_single_leg_deadlift.mp4",
+                                "thumbnail": "videos/thumbnail/1707395757292371_thumbnail-1707395757292.webp"
+                            },
+                            "prefix": "W1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fc9",
+                            "exercise_name": "Single Leg Deadlift",
+                            "progression_exercise_name": "Single Leg Deadlift",
+                            "demo_video_gallery_id": "652e8bfd6aeca3a94fffb265",
+                            "instruct_video_gallery_id": "652e8bfd6aeca3a94fffb263",
+                            "sets": [
+                                {
+                                    "_id": "661af1c4e5a07117b11d928f",
+                                    "title": "6 each",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 8,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af1c4e5a07117b11d928e",
+                                    "title": "6 each",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 8,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661af205e5a07117b11d92c7",
+                        "sort_order": 1.2,
+                        "categories": [],
+                        "prefix": "W2",
+                        "title": "Kettlebell To Shoulder",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fc2",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661af205e5a07117b11d92cb",
+                                "workout_id": "661af205e5a07117b11d92c7",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66175f5deb5488ec04548295",
+                                    "media": "videos/video_gallery/1712807773000_0_kb to shoulder demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807773000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175f88eb5488ec04548385",
+                                    "media": "videos/video_gallery/1712807815000_0_kb to shoulder_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807815000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fc2",
+                                "prefix": "W2",
+                                "exercise_name": "Kettlebell To Shoulder",
+                                "progression_exercise_name": "Kettlebell To Shoulder"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661af205e5a07117b11d92cb",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175f5deb5488ec04548295",
+                                "media": "videos/video_gallery/1712807773000_0_kb to shoulder demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712807773000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175f88eb5488ec04548385",
+                                "media": "videos/video_gallery/1712807815000_0_kb to shoulder_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712807815000_0_thumbnail_0.png"
+                            },
+                            "prefix": "W2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fc2",
+                            "exercise_name": "Kettlebell To Shoulder",
+                            "progression_exercise_name": "Kettlebell To Shoulder",
+                            "demo_video_gallery_id": "66175f5deb5488ec04548295",
+                            "instruct_video_gallery_id": "66175f88eb5488ec04548385",
+                            "sets": [
+                                {
+                                    "_id": "661af22ce5a07117b11d92d7",
+                                    "title": "10 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 12,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af22ce5a07117b11d92d6",
+                                    "title": "10 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 12,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "661ae6a9e5a07117b11d56eb",
+                "title": "PRIMARY: Rest 60 sec between exercise 1 & 2",
+                "sort_order": 2,
+                "session_stage_detail": {
+                    "_id": "695e2ad5f0bd1bca53affaad",
+                    "title": "Primary",
+                    "status": 1,
+                    "created_on": 1767779029,
+                    "updated_on": 1767779029,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661af324e5a07117b11d92f0",
+                        "sort_order": 2.1,
+                        "categories": [],
+                        "prefix": "A1",
+                        "title": "All In One Motion",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fcc",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661af324e5a07117b11d92f4",
+                                "workout_id": "661af324e5a07117b11d92f0",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66176ca9eb5488ec0454bd93",
+                                    "media": "videos/video_gallery/1712811176000_0_shouldering AIOM demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811176000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176c59eb5488ec0454bd4c",
+                                    "media": "videos/video_gallery/1712811096000_0_shouldering AIOM_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811096000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcc",
+                                "prefix": "A1",
+                                "exercise_name": "All In One Motion",
+                                "progression_exercise_name": "All in One Motion"
+                            },
+                            {
+                                "_id": "661af3e7e5a07117b11d9349",
+                                "workout_id": "661af324e5a07117b11d92f0",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 2,
+                                "demoVideoData": {
+                                    "_id": "66176ca9eb5488ec0454bd93",
+                                    "media": "videos/video_gallery/1712811176000_0_shouldering AIOM demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811176000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176c59eb5488ec0454bd4c",
+                                    "media": "videos/video_gallery/1712811096000_0_shouldering AIOM_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811096000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcc",
+                                "prefix": "A1",
+                                "exercise_name": "All In One Motion",
+                                "progression_exercise_name": "All in One Motion"
+                            },
+                            {
+                                "_id": "661af453e5a07117b11d936a",
+                                "workout_id": "661af324e5a07117b11d92f0",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 3,
+                                "demoVideoData": {
+                                    "_id": "66176ca9eb5488ec0454bd93",
+                                    "media": "videos/video_gallery/1712811176000_0_shouldering AIOM demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811176000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176c59eb5488ec0454bd4c",
+                                    "media": "videos/video_gallery/1712811096000_0_shouldering AIOM_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811096000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcc",
+                                "prefix": "A1",
+                                "exercise_name": "All In One Motion",
+                                "progression_exercise_name": "All in One Motion"
+                            },
+                            {
+                                "_id": "661af51de5a07117b11d93a7",
+                                "workout_id": "661af324e5a07117b11d92f0",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 4,
+                                "demoVideoData": {
+                                    "_id": "66176ca9eb5488ec0454bd93",
+                                    "media": "videos/video_gallery/1712811176000_0_shouldering AIOM demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811176000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176c59eb5488ec0454bd4c",
+                                    "media": "videos/video_gallery/1712811096000_0_shouldering AIOM_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811096000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcc",
+                                "prefix": "A1",
+                                "exercise_name": "All In One Motion",
+                                "progression_exercise_name": "All in One Motion"
+                            },
+                            {
+                                "_id": "661af54ae5a07117b11d9503",
+                                "workout_id": "661af324e5a07117b11d92f0",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 5,
+                                "demoVideoData": {
+                                    "_id": "66176ca9eb5488ec0454bd93",
+                                    "media": "videos/video_gallery/1712811176000_0_shouldering AIOM demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811176000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176c59eb5488ec0454bd4c",
+                                    "media": "videos/video_gallery/1712811096000_0_shouldering AIOM_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811096000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcc",
+                                "prefix": "A1",
+                                "exercise_name": "All In One Motion",
+                                "progression_exercise_name": "All in One Motion"
+                            },
+                            {
+                                "_id": "661af571e5a07117b11d953d",
+                                "workout_id": "661af324e5a07117b11d92f0",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 6,
+                                "demoVideoData": {
+                                    "_id": "66176ca9eb5488ec0454bd93",
+                                    "media": "videos/video_gallery/1712811176000_0_shouldering AIOM demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811176000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176c59eb5488ec0454bd4c",
+                                    "media": "videos/video_gallery/1712811096000_0_shouldering AIOM_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811096000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcc",
+                                "prefix": "A1",
+                                "exercise_name": "All In One Motion",
+                                "progression_exercise_name": "All in One Motion"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 6,
+                        "allProgression": {
+                            "_id": "661af324e5a07117b11d92f4",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66176ca9eb5488ec0454bd93",
+                                "media": "videos/video_gallery/1712811176000_0_shouldering AIOM demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712811176000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176c59eb5488ec0454bd4c",
+                                "media": "videos/video_gallery/1712811096000_0_shouldering AIOM_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712811096000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fcc",
+                            "exercise_name": "All In One Motion",
+                            "progression_exercise_name": "All in One Motion",
+                            "demo_video_gallery_id": "66176ca9eb5488ec0454bd93",
+                            "instruct_video_gallery_id": "66176c59eb5488ec0454bd4c",
+                            "sets": [
+                                {
+                                    "_id": "661af3a4e5a07117b11d9334",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af3a4e5a07117b11d9336",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af3a4e5a07117b11d9335",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            6
+                        ]
+                    },
+                    {
+                        "_id": "661af380e5a07117b11d9308",
+                        "sort_order": 2.2,
+                        "categories": [],
+                        "prefix": "B1",
+                        "title": "Shoulder To Shoulder Clean",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661af380e5a07117b11d930c",
+                                "workout_id": "661af380e5a07117b11d9308",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "rest_time_after_exercise": 90,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66176ae2eb5488ec0454baa6",
+                                    "media": "videos/video_gallery/1712810722000_0_shoulder to shoulder clean demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810722000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176b13eb5488ec0454baf1",
+                                    "media": "videos/video_gallery/1712810770000_0_shoulder to shoulder clean_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810770000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                                "prefix": "B1",
+                                "exercise_name": "Shoulder To Shoulder Clean",
+                                "progression_exercise_name": "Shoulder To Shoulder Clean"
+                            },
+                            {
+                                "_id": "661af62ce5a07117b11d9881",
+                                "workout_id": "661af380e5a07117b11d9308",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 2,
+                                "demoVideoData": {
+                                    "_id": "66176ae2eb5488ec0454baa6",
+                                    "media": "videos/video_gallery/1712810722000_0_shoulder to shoulder clean demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810722000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176b13eb5488ec0454baf1",
+                                    "media": "videos/video_gallery/1712810770000_0_shoulder to shoulder clean_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810770000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                                "prefix": "B1",
+                                "exercise_name": "Shoulder To Shoulder Clean",
+                                "progression_exercise_name": "Shoulder To Shoulder Clean"
+                            },
+                            {
+                                "_id": "661af658e5a07117b11d989e",
+                                "workout_id": "661af380e5a07117b11d9308",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 3,
+                                "demoVideoData": {
+                                    "_id": "66176ae2eb5488ec0454baa6",
+                                    "media": "videos/video_gallery/1712810722000_0_shoulder to shoulder clean demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810722000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176b13eb5488ec0454baf1",
+                                    "media": "videos/video_gallery/1712810770000_0_shoulder to shoulder clean_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810770000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                                "prefix": "B1",
+                                "exercise_name": "Shoulder To Shoulder Clean",
+                                "progression_exercise_name": "Shoulder To Shoulder Clean"
+                            },
+                            {
+                                "_id": "661af7a6e5a07117b11d98f2",
+                                "workout_id": "661af380e5a07117b11d9308",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 4,
+                                "demoVideoData": {
+                                    "_id": "66176ae2eb5488ec0454baa6",
+                                    "media": "videos/video_gallery/1712810722000_0_shoulder to shoulder clean demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810722000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176b13eb5488ec0454baf1",
+                                    "media": "videos/video_gallery/1712810770000_0_shoulder to shoulder clean_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810770000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                                "prefix": "B1",
+                                "exercise_name": "Shoulder To Shoulder Clean",
+                                "progression_exercise_name": "Shoulder To Shoulder Clean"
+                            },
+                            {
+                                "_id": "661af83ce5a07117b11d9a4d",
+                                "workout_id": "661af380e5a07117b11d9308",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 5,
+                                "demoVideoData": {
+                                    "_id": "66176ae2eb5488ec0454baa6",
+                                    "media": "videos/video_gallery/1712810722000_0_shoulder to shoulder clean demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810722000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176b13eb5488ec0454baf1",
+                                    "media": "videos/video_gallery/1712810770000_0_shoulder to shoulder clean_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810770000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                                "prefix": "B1",
+                                "exercise_name": "Shoulder To Shoulder Clean",
+                                "progression_exercise_name": "Shoulder To Shoulder Clean"
+                            },
+                            {
+                                "_id": "661af86de5a07117b11d9a68",
+                                "workout_id": "661af380e5a07117b11d9308",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 6,
+                                "demoVideoData": {
+                                    "_id": "66176ae2eb5488ec0454baa6",
+                                    "media": "videos/video_gallery/1712810722000_0_shoulder to shoulder clean demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810722000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176b13eb5488ec0454baf1",
+                                    "media": "videos/video_gallery/1712810770000_0_shoulder to shoulder clean_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712810770000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                                "prefix": "B1",
+                                "exercise_name": "Shoulder To Shoulder Clean",
+                                "progression_exercise_name": "Shoulder To Shoulder Clean"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 6,
+                        "allProgression": {
+                            "_id": "661af380e5a07117b11d930c",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "rest_time_after_exercise": 90,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66176ae2eb5488ec0454baa6",
+                                "media": "videos/video_gallery/1712810722000_0_shoulder to shoulder clean demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712810722000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176b13eb5488ec0454baf1",
+                                "media": "videos/video_gallery/1712810770000_0_shoulder to shoulder clean_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712810770000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fcd",
+                            "exercise_name": "Shoulder To Shoulder Clean",
+                            "progression_exercise_name": "Shoulder To Shoulder Clean",
+                            "demo_video_gallery_id": "66176ae2eb5488ec0454baa6",
+                            "instruct_video_gallery_id": "66176b13eb5488ec0454baf1",
+                            "sets": [
+                                {
+                                    "_id": "661af5f3e5a07117b11d986d",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af5f3e5a07117b11d986e",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af5f3e5a07117b11d986c",
+                                    "title": "5 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            6
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "661ae6b1e5a07117b11d56f2",
+                "title": "ACCESSORY: Rest 60 sec after exercise 3",
+                "sort_order": 3,
+                "session_stage_detail": {
+                    "_id": "695e2b0af0bd1bca53affacc",
+                    "title": "Accessory",
+                    "status": 1,
+                    "created_on": 1767779082,
+                    "updated_on": 1767779082,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661af8d1e5a07117b11dac4e",
+                        "sort_order": 3.1,
+                        "categories": [],
+                        "prefix": "B1",
+                        "title": "Bear Hug Good Morning",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fb3",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661af8d1e5a07117b11dac52",
+                                "workout_id": "661af8d1e5a07117b11dac4e",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175b6beb5488ec04546d75",
+                                    "media": "videos/video_gallery/1712806762000_0_bear hug good morning demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806762000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175bb5eb5488ec04546d7a",
+                                    "media": "videos/video_gallery/1712806835000_0_bear hug good morning_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806835000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb3",
+                                "prefix": "B1",
+                                "exercise_name": "Bear Hug Good Morning",
+                                "progression_exercise_name": "Bear Hug Good Morning"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661af8d1e5a07117b11dac52",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175b6beb5488ec04546d75",
+                                "media": "videos/video_gallery/1712806762000_0_bear hug good morning demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712806762000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175bb5eb5488ec04546d7a",
+                                "media": "videos/video_gallery/1712806835000_0_bear hug good morning_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712806835000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fb3",
+                            "exercise_name": "Bear Hug Good Morning",
+                            "progression_exercise_name": "Bear Hug Good Morning",
+                            "demo_video_gallery_id": "66175b6beb5488ec04546d75",
+                            "instruct_video_gallery_id": "66175bb5eb5488ec04546d7a",
+                            "sets": [
+                                {
+                                    "_id": "661af904e5a07117b11dac7e",
+                                    "title": "6 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af904e5a07117b11dac7c",
+                                    "title": "6 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af904e5a07117b11dac7d",
+                                    "title": "6 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661af942e5a07117b11dacbb",
+                        "sort_order": 3.2,
+                        "categories": [],
+                        "prefix": "C2",
+                        "title": "Palm Grip Carry",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fc4",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661af942e5a07117b11dacbf",
+                                "workout_id": "661af942e5a07117b11dacbb",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": 20,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "661763c0eb5488ec0454ae2e",
+                                    "media": "videos/video_gallery/1712808895000_0_palm carry demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808895000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176572eb5488ec0454b0ea",
+                                    "media": "videos/video_gallery/1712809329000_0_palm carry_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712809329000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fc4",
+                                "prefix": "C2",
+                                "exercise_name": "Palm Grip Carry",
+                                "progression_exercise_name": "Palm Grip Carry"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661af942e5a07117b11dacbf",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": 20,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "661763c0eb5488ec0454ae2e",
+                                "media": "videos/video_gallery/1712808895000_0_palm carry demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712808895000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176572eb5488ec0454b0ea",
+                                "media": "videos/video_gallery/1712809329000_0_palm carry_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712809329000_0_thumbnail_0.png"
+                            },
+                            "prefix": "C2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fc4",
+                            "exercise_name": "Palm Grip Carry",
+                            "progression_exercise_name": "Palm Grip Carry",
+                            "demo_video_gallery_id": "661763c0eb5488ec0454ae2e",
+                            "instruct_video_gallery_id": "66176572eb5488ec0454b0ea",
+                            "sets": [
+                                {
+                                    "_id": "661af955e5a07117b11daccc",
+                                    "title": "1",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af955e5a07117b11daccb",
+                                    "title": "1",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af955e5a07117b11dacca",
+                                    "title": "1",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661af99ce5a07117b11dace5",
+                        "sort_order": 3.3,
+                        "categories": [],
+                        "prefix": "A2",
+                        "title": "Sandbag Rows",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fb0",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661af99ce5a07117b11dace9",
+                                "workout_id": "661af99ce5a07117b11dace5",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "rest_time_after_exercise": 60,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175d69eb5488ec04548100",
+                                    "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175dabeb5488ec0454811e",
+                                    "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb0",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Rows",
+                                "progression_exercise_name": "Sandbag Rows"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661af99ce5a07117b11dace9",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "rest_time_after_exercise": 60,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175d69eb5488ec04548100",
+                                "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175dabeb5488ec0454811e",
+                                "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fb0",
+                            "exercise_name": "Sandbag Rows",
+                            "progression_exercise_name": "Sandbag Rows",
+                            "demo_video_gallery_id": "66175d69eb5488ec04548100",
+                            "instruct_video_gallery_id": "66175dabeb5488ec0454811e",
+                            "sets": [
+                                {
+                                    "_id": "661af9b5e5a07117b11dacf5",
+                                    "title": "6 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af9b5e5a07117b11dacf4",
+                                    "title": "6 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661af9b5e5a07117b11dacf6",
+                                    "title": "6 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            }
+        ],
+        "canCompleteSession": false,
+        "isAlreadyCompleted": 0
+    }
+}

@@ -1,0 +1,866 @@
+{
+    "status": true,
+    "message": "Data found scuccessfully",
+    "data": {
+        "_id": "661500e9a5a503220bd56dd2",
+        "title": "Workout 2",
+        "program_id": "6613c20da5a503220bd2680f",
+        "image": "images/program/1773263518840461_media-1773263518840.webp",
+        "cycleData": {
+            "_id": "6614f5b5a5a503220bd567e7",
+            "title": "FORTIFY 1"
+        },
+        "workoutData": [
+            {
+                "_id": "6617b1d2e5a07117b1162b1c",
+                "title": "WARM UP: 2 Rounds no rest",
+                "sort_order": 1,
+                "session_stage_detail": {
+                    "_id": "695e1cf1a6f3e9f467930e1c",
+                    "title": "Warmup",
+                    "status": 1,
+                    "created_on": 1767775467,
+                    "updated_on": 1767775467,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "6617b230e5a07117b1162b68",
+                        "sort_order": 1.1,
+                        "categories": [],
+                        "prefix": "W1",
+                        "title": "Stride Stance Good Morning",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fac",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "6617b230e5a07117b1162b6c",
+                                "workout_id": "6617b230e5a07117b1162b68",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "demoVideoData": {
+                                    "_id": "6529272a375d532164540f6b",
+                                    "media": "videos/live/STRIDE_STANCE_GOOD_MORNING_DEMO.mp4",
+                                    "thumbnail": "videos/thumbnail/1707461147775547_thumbnail-1707461147775.webp"
+                                },
+                                "instructVideoData": {
+                                    "_id": "6529272a375d532164540f6c",
+                                    "media": "videos/live/stride_stance_good_morning.mp4",
+                                    "thumbnail": "videos/thumbnail/1707461139805320_thumbnail-1707461139805.webp"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fac",
+                                "prefix": "W1",
+                                "exercise_name": "Stride Stance Good Morning",
+                                "progression_exercise_name": "Stride Stance Good Morning"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "6617b230e5a07117b1162b6c",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "6529272a375d532164540f6b",
+                                "media": "videos/live/STRIDE_STANCE_GOOD_MORNING_DEMO.mp4",
+                                "thumbnail": "videos/thumbnail/1707461147775547_thumbnail-1707461147775.webp"
+                            },
+                            "instructVideoData": {
+                                "_id": "6529272a375d532164540f6c",
+                                "media": "videos/live/stride_stance_good_morning.mp4",
+                                "thumbnail": "videos/thumbnail/1707461139805320_thumbnail-1707461139805.webp"
+                            },
+                            "prefix": "W1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fac",
+                            "exercise_name": "Stride Stance Good Morning",
+                            "progression_exercise_name": "Stride Stance Good Morning",
+                            "demo_video_gallery_id": "6529272a375d532164540f6b",
+                            "instruct_video_gallery_id": "6529272a375d532164540f6c",
+                            "sets": [
+                                {
+                                    "_id": "6631b0c39c89a1f82751f329",
+                                    "title": "10 each",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "6631b0c39c89a1f82751f328",
+                                    "title": "10 each",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "6617b286e5a07117b1162c9f",
+                        "sort_order": 1.2,
+                        "categories": [
+                            {
+                                "_id": "62c4180f70b0f1278d481669",
+                                "title": "Mobility"
+                            }
+                        ],
+                        "prefix": "W1",
+                        "title": "Scap Swimmer",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0f99",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "6617b286e5a07117b1162ca3",
+                                "workout_id": "6617b286e5a07117b1162c9f",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "demoVideoData": {
+                                    "_id": "6529272a375d532164540f5b",
+                                    "media": "videos/live/scap_swimmer_demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1707461535605516_thumbnail-1707461535605.webp"
+                                },
+                                "instructVideoData": {
+                                    "_id": "6529272a375d532164540f5c",
+                                    "media": "videos/live/scap_swimmer.mp4",
+                                    "thumbnail": "videos/thumbnail/1707461376169885_thumbnail-1707461376169.webp"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0f99",
+                                "prefix": "W1",
+                                "exercise_name": "Scap Swimmer",
+                                "progression_exercise_name": "Scap Swimmer"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "6617b286e5a07117b1162ca3",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "categories": [
+                                {
+                                    "_id": "62c4180f70b0f1278d481669",
+                                    "title": "Mobility"
+                                }
+                            ],
+                            "demoVideoData": {
+                                "_id": "6529272a375d532164540f5b",
+                                "media": "videos/live/scap_swimmer_demo.mp4",
+                                "thumbnail": "videos/thumbnail/1707461535605516_thumbnail-1707461535605.webp"
+                            },
+                            "instructVideoData": {
+                                "_id": "6529272a375d532164540f5c",
+                                "media": "videos/live/scap_swimmer.mp4",
+                                "thumbnail": "videos/thumbnail/1707461376169885_thumbnail-1707461376169.webp"
+                            },
+                            "prefix": "W1",
+                            "exercise_id": "69651e9fcca4b455bc2d0f99",
+                            "exercise_name": "Scap Swimmer",
+                            "progression_exercise_name": "Scap Swimmer",
+                            "demo_video_gallery_id": "6529272a375d532164540f5b",
+                            "instruct_video_gallery_id": "6529272a375d532164540f5c",
+                            "sets": [
+                                {
+                                    "_id": "6631b0d59c89a1f82751f338",
+                                    "title": "10",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "6631b0d59c89a1f82751f337",
+                                    "title": "10",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "6617b1d9e5a07117b1162b23",
+                "title": "PRIMARY: Rest 90 sec after exercise 2",
+                "sort_order": 2,
+                "session_stage_detail": {
+                    "_id": "695e2ad5f0bd1bca53affaad",
+                    "title": "Primary",
+                    "status": 1,
+                    "created_on": 1767779029,
+                    "updated_on": 1767779029,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "6617b501e5a07117b1162d20",
+                        "sort_order": 2.1,
+                        "categories": [],
+                        "prefix": "A1",
+                        "title": "Sandbag Deadlift",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0faf",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "6617b501e5a07117b1162d24",
+                                "workout_id": "6617b501e5a07117b1162d20",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175e55eb5488ec04548223",
+                                    "media": "videos/video_gallery/1712807508000_0_deadlift demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807508000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175e85eb5488ec04548228",
+                                    "media": "videos/video_gallery/1712807556000_0_deadlift_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807556000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0faf",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Deadlift",
+                                "progression_exercise_name": "Sandbag Deadlift"
+                            },
+                            {
+                                "_id": "6617b56fe5a07117b1162d97",
+                                "workout_id": "6617b501e5a07117b1162d20",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 2,
+                                "demoVideoData": {
+                                    "_id": "66175e55eb5488ec04548223",
+                                    "media": "videos/video_gallery/1712807508000_0_deadlift demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807508000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175e85eb5488ec04548228",
+                                    "media": "videos/video_gallery/1712807556000_0_deadlift_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807556000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fae",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Deadlift",
+                                "progression_exercise_name": "Sand Bag Deadlift"
+                            },
+                            {
+                                "_id": "6617b5bde5a07117b1162dd8",
+                                "workout_id": "6617b501e5a07117b1162d20",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 3,
+                                "demoVideoData": {
+                                    "_id": "66175e55eb5488ec04548223",
+                                    "media": "videos/video_gallery/1712807508000_0_deadlift demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807508000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175e85eb5488ec04548228",
+                                    "media": "videos/video_gallery/1712807556000_0_deadlift_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807556000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0faf",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Deadlift",
+                                "progression_exercise_name": "Sandbag Deadlift"
+                            },
+                            {
+                                "_id": "6617b5efe5a07117b1162dfb",
+                                "workout_id": "6617b501e5a07117b1162d20",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 4,
+                                "demoVideoData": {
+                                    "_id": "66175e55eb5488ec04548223",
+                                    "media": "videos/video_gallery/1712807508000_0_deadlift demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807508000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175e85eb5488ec04548228",
+                                    "media": "videos/video_gallery/1712807556000_0_deadlift_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807556000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fae",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Deadlift",
+                                "progression_exercise_name": "Sand Bag Deadlift"
+                            },
+                            {
+                                "_id": "6617b629e5a07117b1162e4a",
+                                "workout_id": "6617b501e5a07117b1162d20",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 5,
+                                "demoVideoData": {
+                                    "_id": "66175e55eb5488ec04548223",
+                                    "media": "videos/video_gallery/1712807508000_0_deadlift demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807508000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175e85eb5488ec04548228",
+                                    "media": "videos/video_gallery/1712807556000_0_deadlift_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807556000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fae",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Deadlift",
+                                "progression_exercise_name": "Sand Bag Deadlift"
+                            },
+                            {
+                                "_id": "6617b660e5a07117b1162e92",
+                                "workout_id": "6617b501e5a07117b1162d20",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 6,
+                                "demoVideoData": {
+                                    "_id": "66175e55eb5488ec04548223",
+                                    "media": "videos/video_gallery/1712807508000_0_deadlift demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807508000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175e85eb5488ec04548228",
+                                    "media": "videos/video_gallery/1712807556000_0_deadlift_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807556000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fae",
+                                "prefix": "A1",
+                                "exercise_name": "Sandbag Deadlift",
+                                "progression_exercise_name": "Sand Bag Deadlift"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 6,
+                        "allProgression": {
+                            "_id": "6617b501e5a07117b1162d24",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175e55eb5488ec04548223",
+                                "media": "videos/video_gallery/1712807508000_0_deadlift demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712807508000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175e85eb5488ec04548228",
+                                "media": "videos/video_gallery/1712807556000_0_deadlift_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712807556000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A1",
+                            "exercise_id": "69651e9fcca4b455bc2d0faf",
+                            "exercise_name": "Sandbag Deadlift",
+                            "progression_exercise_name": "Sandbag Deadlift",
+                            "demo_video_gallery_id": "66175e55eb5488ec04548223",
+                            "instruct_video_gallery_id": "66175e85eb5488ec04548228",
+                            "sets": [
+                                {
+                                    "_id": "6617b514e5a07117b1162d39",
+                                    "title": "3",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "6617b514e5a07117b1162d38",
+                                    "title": "3",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "6617b514e5a07117b1162d37",
+                                    "title": "3",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            6
+                        ]
+                    },
+                    {
+                        "_id": "6617b6d4e5a07117b1162f31",
+                        "sort_order": 2.2,
+                        "categories": [],
+                        "prefix": "A2",
+                        "title": "Sandbag Rows",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fb1",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "6617b6d4e5a07117b1162f35",
+                                "workout_id": "6617b6d4e5a07117b1162f31",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "rest_time_after_exercise": 90,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175d69eb5488ec04548100",
+                                    "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175dabeb5488ec0454811e",
+                                    "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb1",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Rows",
+                                "progression_exercise_name": "Sandbag Row"
+                            },
+                            {
+                                "_id": "6617cf34e5a07117b1166a02",
+                                "workout_id": "6617b6d4e5a07117b1162f31",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 2,
+                                "demoVideoData": {
+                                    "_id": "66175d69eb5488ec04548100",
+                                    "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175dabeb5488ec0454811e",
+                                    "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb1",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Rows",
+                                "progression_exercise_name": "Sandbag Row"
+                            },
+                            {
+                                "_id": "6617cf79e5a07117b1166a50",
+                                "workout_id": "6617b6d4e5a07117b1162f31",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 3,
+                                "demoVideoData": {
+                                    "_id": "66175d69eb5488ec04548100",
+                                    "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175dabeb5488ec0454811e",
+                                    "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb1",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Rows",
+                                "progression_exercise_name": "Sandbag Row"
+                            },
+                            {
+                                "_id": "6617cfa1e5a07117b1166a6e",
+                                "workout_id": "6617b6d4e5a07117b1162f31",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 4,
+                                "demoVideoData": {
+                                    "_id": "66175d69eb5488ec04548100",
+                                    "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175dabeb5488ec0454811e",
+                                    "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb1",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Rows",
+                                "progression_exercise_name": "Sandbag Row"
+                            },
+                            {
+                                "_id": "6617cfdee5a07117b1166a9d",
+                                "workout_id": "6617b6d4e5a07117b1162f31",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 5,
+                                "demoVideoData": {
+                                    "_id": "66175d69eb5488ec04548100",
+                                    "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175dabeb5488ec0454811e",
+                                    "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb1",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Rows",
+                                "progression_exercise_name": "Sandbag Row"
+                            },
+                            {
+                                "_id": "6617d014e5a07117b1166afc",
+                                "workout_id": "6617b6d4e5a07117b1162f31",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 6,
+                                "demoVideoData": {
+                                    "_id": "66175d69eb5488ec04548100",
+                                    "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175dabeb5488ec0454811e",
+                                    "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb1",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Rows",
+                                "progression_exercise_name": "Sandbag Row"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 6,
+                        "allProgression": {
+                            "_id": "6617b6d4e5a07117b1162f35",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "rest_time_after_exercise": 90,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175d69eb5488ec04548100",
+                                "media": "videos/video_gallery/1712807273000_0_bent row demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712807273000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175dabeb5488ec0454811e",
+                                "media": "videos/video_gallery/1712807339000_0_bent row_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712807339000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fb1",
+                            "exercise_name": "Sandbag Rows",
+                            "progression_exercise_name": "Sandbag Row",
+                            "demo_video_gallery_id": "66175d69eb5488ec04548100",
+                            "instruct_video_gallery_id": "66175dabeb5488ec0454811e",
+                            "sets": [
+                                {
+                                    "_id": "6617b6e5e5a07117b1162f89",
+                                    "title": "3",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "6617b6e5e5a07117b1162f8a",
+                                    "title": "3",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "6617b6e5e5a07117b1162f8b",
+                                    "title": "3",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            6
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "6617b1e3e5a07117b1162b2a",
+                "title": "ACCESSORY: Rest 60 seconds after exercise 2",
+                "sort_order": 3,
+                "session_stage_detail": {
+                    "_id": "695e2b0af0bd1bca53affacc",
+                    "title": "Accessory",
+                    "status": 1,
+                    "created_on": 1767779082,
+                    "updated_on": 1767779082,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "6617d086e5a07117b1167d02",
+                        "sort_order": 3.1,
+                        "categories": [],
+                        "prefix": "B1",
+                        "title": "Bear Hug Good Morning",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fb3",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "6617d086e5a07117b1167d06",
+                                "workout_id": "6617d086e5a07117b1167d02",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175b6beb5488ec04546d75",
+                                    "media": "videos/video_gallery/1712806762000_0_bear hug good morning demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806762000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175bb5eb5488ec04546d7a",
+                                    "media": "videos/video_gallery/1712806835000_0_bear hug good morning_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806835000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fb3",
+                                "prefix": "B1",
+                                "exercise_name": "Bear Hug Good Morning",
+                                "progression_exercise_name": "Bear Hug Good Morning"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "6617d086e5a07117b1167d06",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175b6beb5488ec04546d75",
+                                "media": "videos/video_gallery/1712806762000_0_bear hug good morning demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712806762000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175bb5eb5488ec04546d7a",
+                                "media": "videos/video_gallery/1712806835000_0_bear hug good morning_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712806835000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fb3",
+                            "exercise_name": "Bear Hug Good Morning",
+                            "progression_exercise_name": "Bear Hug Good Morning",
+                            "demo_video_gallery_id": "66175b6beb5488ec04546d75",
+                            "instruct_video_gallery_id": "66175bb5eb5488ec04546d7a",
+                            "sets": [
+                                {
+                                    "_id": "6617d0cee5a07117b1167de1",
+                                    "title": "5 - 8 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "6617d0cee5a07117b1167de2",
+                                    "title": "5 - 8 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "6617d212e5a07117b1168116",
+                        "sort_order": 3.2,
+                        "categories": [],
+                        "prefix": "B2",
+                        "title": "Bear Hug Carry",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fab",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "6617d212e5a07117b116811a",
+                                "workout_id": "6617d212e5a07117b1168116",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "rest_time_after_exercise": 60,
+                                "demoVideoData": {
+                                    "_id": "66175f07eb5488ec04548255",
+                                    "media": "videos/video_gallery/1712807686000_0_gable grip carry demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807686000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175f36eb5488ec0454825a",
+                                    "media": "videos/video_gallery/1712807733000_0_gable grip carry_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807733000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fab",
+                                "prefix": "B2",
+                                "exercise_name": "Bear Hug Carry",
+                                "progression_exercise_name": "Bear Hug Carry"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "6617d212e5a07117b116811a",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "rest_time_after_exercise": 60,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175f07eb5488ec04548255",
+                                "media": "videos/video_gallery/1712807686000_0_gable grip carry demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712807686000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175f36eb5488ec0454825a",
+                                "media": "videos/video_gallery/1712807733000_0_gable grip carry_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712807733000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fab",
+                            "exercise_name": "Bear Hug Carry",
+                            "progression_exercise_name": "Bear Hug Carry",
+                            "demo_video_gallery_id": "66175f07eb5488ec04548255",
+                            "instruct_video_gallery_id": "66175f36eb5488ec0454825a",
+                            "sets": [
+                                {
+                                    "_id": "6617d233e5a07117b1168163",
+                                    "title": "40 meters",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "6617d233e5a07117b1168164",
+                                    "title": "40 meters",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            }
+        ],
+        "canCompleteSession": false,
+        "isAlreadyCompleted": 0
+    }
+}

@@ -1,0 +1,1093 @@
+{
+    "status": true,
+    "message": "Data found scuccessfully",
+    "data": {
+        "_id": "661b0a61e5a07117b11dcecd",
+        "title": "WORKOUT 1",
+        "program_id": "6613c20da5a503220bd2680f",
+        "image": "images/program/1773264068311737_media-1773264068311.webp",
+        "cycleData": {
+            "_id": "6614ffa0a5a503220bd56d4d",
+            "title": "DIAMOND 2"
+        },
+        "workoutData": [
+            {
+                "_id": "661b0a89e5a07117b11dcf07",
+                "title": "WARM UP: 2 Rounds no rest",
+                "sort_order": 1,
+                "session_stage_detail": {
+                    "_id": "695e1cf1a6f3e9f467930e1c",
+                    "title": "Warmup",
+                    "status": 1,
+                    "created_on": 1767775467,
+                    "updated_on": 1767775467,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661b39ece5a07117b11e176d",
+                        "sort_order": 1.1,
+                        "categories": [
+                            {
+                                "_id": "62c4180f70b0f1278d481669",
+                                "title": "Mobility"
+                            }
+                        ],
+                        "prefix": "W2",
+                        "title": "Wall Clam",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0f8d",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b39ece5a07117b11e1771",
+                                "workout_id": "661b39ece5a07117b11e176d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "demoVideoData": {
+                                    "_id": "6526ad0ac3414eb2600d7e29",
+                                    "media": "videos/live/wall_clam_demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1707467512013821_thumbnail-1707467512013.webp"
+                                },
+                                "instructVideoData": {
+                                    "_id": "6526ad0ac3414eb2600d7e2a",
+                                    "media": "videos/live/wall_clam_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1707467503013552_thumbnail-1707467503013.webp"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0f8d",
+                                "prefix": "W2",
+                                "exercise_name": "Wall Clam",
+                                "progression_exercise_name": "Wall Clam"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b39ece5a07117b11e1771",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "categories": [
+                                {
+                                    "_id": "62c4180f70b0f1278d481669",
+                                    "title": "Mobility"
+                                }
+                            ],
+                            "demoVideoData": {
+                                "_id": "6526ad0ac3414eb2600d7e29",
+                                "media": "videos/live/wall_clam_demo.mp4",
+                                "thumbnail": "videos/thumbnail/1707467512013821_thumbnail-1707467512013.webp"
+                            },
+                            "instructVideoData": {
+                                "_id": "6526ad0ac3414eb2600d7e2a",
+                                "media": "videos/live/wall_clam_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1707467503013552_thumbnail-1707467503013.webp"
+                            },
+                            "prefix": "W2",
+                            "exercise_id": "69651e9fcca4b455bc2d0f8d",
+                            "exercise_name": "Wall Clam",
+                            "progression_exercise_name": "Wall Clam",
+                            "demo_video_gallery_id": "6526ad0ac3414eb2600d7e29",
+                            "instruct_video_gallery_id": "6526ad0ac3414eb2600d7e2a",
+                            "sets": [
+                                {
+                                    "_id": "661b3a09e5a07117b11e177c",
+                                    "title": "6 each",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3a09e5a07117b11e177d",
+                                    "title": "6 each",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661b3ae6e5a07117b11e1815",
+                        "sort_order": 1.2,
+                        "categories": [
+                            {
+                                "_id": "62b1b5e06600f91958682e7a",
+                                "title": "Strength"
+                            },
+                            {
+                                "_id": "62c4180f70b0f1278d481669",
+                                "title": "Mobility"
+                            }
+                        ],
+                        "prefix": "W2",
+                        "title": "Push Up & Twist",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fd8",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b3ae6e5a07117b11e1819",
+                                "workout_id": "661b3ae6e5a07117b11e1815",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "demoVideoData": {
+                                    "_id": "6526ad0ac3414eb2600d7e1d",
+                                    "media": "videos/live/push_up_and_twist_demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1707467643753846_thumbnail-1707467643753.webp"
+                                },
+                                "instructVideoData": {
+                                    "_id": "6526ad0ac3414eb2600d7e1e",
+                                    "media": "videos/live/push_up_and_twist_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1707467622593675_thumbnail-1707467622594.webp"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd8",
+                                "prefix": "W2",
+                                "exercise_name": "Push Up & Twist",
+                                "progression_exercise_name": "Push Up & Twist"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b3ae6e5a07117b11e1819",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "categories": [
+                                {
+                                    "_id": "62b1b5e06600f91958682e7a",
+                                    "title": "Strength"
+                                },
+                                {
+                                    "_id": "62c4180f70b0f1278d481669",
+                                    "title": "Mobility"
+                                }
+                            ],
+                            "demoVideoData": {
+                                "_id": "6526ad0ac3414eb2600d7e1d",
+                                "media": "videos/live/push_up_and_twist_demo.mp4",
+                                "thumbnail": "videos/thumbnail/1707467643753846_thumbnail-1707467643753.webp"
+                            },
+                            "instructVideoData": {
+                                "_id": "6526ad0ac3414eb2600d7e1e",
+                                "media": "videos/live/push_up_and_twist_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1707467622593675_thumbnail-1707467622594.webp"
+                            },
+                            "prefix": "W2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fd8",
+                            "exercise_name": "Push Up & Twist",
+                            "progression_exercise_name": "Push Up & Twist",
+                            "demo_video_gallery_id": "6526ad0ac3414eb2600d7e1d",
+                            "instruct_video_gallery_id": "6526ad0ac3414eb2600d7e1e",
+                            "sets": [
+                                {
+                                    "_id": "686669d602eef644f5c8140c",
+                                    "title": "10 ea",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "686669d602eef644f5c8140b",
+                                    "title": "10 ea",
+                                    "note": "",
+                                    "time_in_seconds": 0,
+                                    "weight_type": "",
+                                    "weight_value": 0,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661b3b3ce5a07117b11e182d",
+                        "sort_order": 1.3,
+                        "categories": [],
+                        "prefix": "W3",
+                        "title": "Squeeze & Twist",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fcf",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b3b3ce5a07117b11e1831",
+                                "workout_id": "661b3b3ce5a07117b11e182d",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66176d7feb5488ec0454bdf1",
+                                    "media": "videos/video_gallery/1712811391000_0_squeeze and twist demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811391000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176db7eb5488ec0454be1b",
+                                    "media": "videos/video_gallery/1712811446000_0_squeeze and twist_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712811446000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fcf",
+                                "prefix": "W3",
+                                "exercise_name": "Squeeze & Twist",
+                                "progression_exercise_name": "Squeeze & Twist"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b3b3ce5a07117b11e1831",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66176d7feb5488ec0454bdf1",
+                                "media": "videos/video_gallery/1712811391000_0_squeeze and twist demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712811391000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176db7eb5488ec0454be1b",
+                                "media": "videos/video_gallery/1712811446000_0_squeeze and twist_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712811446000_0_thumbnail_0.png"
+                            },
+                            "prefix": "W3",
+                            "exercise_id": "69651e9fcca4b455bc2d0fcf",
+                            "exercise_name": "Squeeze & Twist",
+                            "progression_exercise_name": "Squeeze & Twist",
+                            "demo_video_gallery_id": "66176d7feb5488ec0454bdf1",
+                            "instruct_video_gallery_id": "66176db7eb5488ec0454be1b",
+                            "sets": [
+                                {
+                                    "_id": "661b3b4ce5a07117b11e183c",
+                                    "title": "10 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 10,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3b4ce5a07117b11e183d",
+                                    "title": "10 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 10,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "661b0a90e5a07117b11dcf0e",
+                "title": "PRIMARY: Rest 90 sec after exercise 2",
+                "sort_order": 2,
+                "session_stage_detail": {
+                    "_id": "695e2ad5f0bd1bca53affaad",
+                    "title": "Primary",
+                    "status": 1,
+                    "created_on": 1767779029,
+                    "updated_on": 1767779029,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661b3b8ee5a07117b11e1856",
+                        "sort_order": 2.1,
+                        "categories": [],
+                        "prefix": "A1",
+                        "title": "Bear Hug Squat",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fa8",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b3b8ee5a07117b11e185a",
+                                "workout_id": "661b3b8ee5a07117b11e1856",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175bf2eb5488ec04546d7f",
+                                    "media": "videos/video_gallery/1712806898000_0_bear hug squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806898000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175c1ceb5488ec04546d84",
+                                    "media": "videos/video_gallery/1712806939000_0_bear hug squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806939000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fa8",
+                                "prefix": "A1",
+                                "exercise_name": "Bear Hug Squat",
+                                "progression_exercise_name": "Bear Hug Squat"
+                            },
+                            {
+                                "_id": "661b3fa1e5a07117b11e19b9",
+                                "workout_id": "661b3b8ee5a07117b11e1856",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 2,
+                                "demoVideoData": {
+                                    "_id": "66175bf2eb5488ec04546d7f",
+                                    "media": "videos/video_gallery/1712806898000_0_bear hug squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806898000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175c1ceb5488ec04546d84",
+                                    "media": "videos/video_gallery/1712806939000_0_bear hug squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806939000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fa8",
+                                "prefix": "A1",
+                                "exercise_name": "Bear Hug Squat",
+                                "progression_exercise_name": "Bear Hug Squat"
+                            },
+                            {
+                                "_id": "661b3fc9e5a07117b11e1a02",
+                                "workout_id": "661b3b8ee5a07117b11e1856",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 3,
+                                "demoVideoData": {
+                                    "_id": "66175bf2eb5488ec04546d7f",
+                                    "media": "videos/video_gallery/1712806898000_0_bear hug squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806898000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175c1ceb5488ec04546d84",
+                                    "media": "videos/video_gallery/1712806939000_0_bear hug squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806939000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fa8",
+                                "prefix": "A1",
+                                "exercise_name": "Bear Hug Squat",
+                                "progression_exercise_name": "Bear Hug Squat"
+                            },
+                            {
+                                "_id": "661b3febe5a07117b11e1a32",
+                                "workout_id": "661b3b8ee5a07117b11e1856",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 4,
+                                "demoVideoData": {
+                                    "_id": "66175bf2eb5488ec04546d7f",
+                                    "media": "videos/video_gallery/1712806898000_0_bear hug squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806898000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175c1ceb5488ec04546d84",
+                                    "media": "videos/video_gallery/1712806939000_0_bear hug squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806939000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fa8",
+                                "prefix": "A1",
+                                "exercise_name": "Bear Hug Squat",
+                                "progression_exercise_name": "Bear Hug Squat"
+                            },
+                            {
+                                "_id": "661b4032e5a07117b11e1a4b",
+                                "workout_id": "661b3b8ee5a07117b11e1856",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 5,
+                                "demoVideoData": {
+                                    "_id": "66175bf2eb5488ec04546d7f",
+                                    "media": "videos/video_gallery/1712806898000_0_bear hug squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806898000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175c1ceb5488ec04546d84",
+                                    "media": "videos/video_gallery/1712806939000_0_bear hug squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806939000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fa8",
+                                "prefix": "A1",
+                                "exercise_name": "Bear Hug Squat",
+                                "progression_exercise_name": "Bear Hug Squat"
+                            },
+                            {
+                                "_id": "661b4055e5a07117b11e1a6d",
+                                "workout_id": "661b3b8ee5a07117b11e1856",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 6,
+                                "demoVideoData": {
+                                    "_id": "66175bf2eb5488ec04546d7f",
+                                    "media": "videos/video_gallery/1712806898000_0_bear hug squat demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806898000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175c1ceb5488ec04546d84",
+                                    "media": "videos/video_gallery/1712806939000_0_bear hug squat_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806939000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fa8",
+                                "prefix": "A1",
+                                "exercise_name": "Bear Hug Squat",
+                                "progression_exercise_name": "Bear Hug Squat"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 6,
+                        "allProgression": {
+                            "_id": "661b3b8ee5a07117b11e185a",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175bf2eb5488ec04546d7f",
+                                "media": "videos/video_gallery/1712806898000_0_bear hug squat demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712806898000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175c1ceb5488ec04546d84",
+                                "media": "videos/video_gallery/1712806939000_0_bear hug squat_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712806939000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fa8",
+                            "exercise_name": "Bear Hug Squat",
+                            "progression_exercise_name": "Bear Hug Squat",
+                            "demo_video_gallery_id": "66175bf2eb5488ec04546d7f",
+                            "instruct_video_gallery_id": "66175c1ceb5488ec04546d84",
+                            "sets": [
+                                {
+                                    "_id": "661b3b9de5a07117b11e1867",
+                                    "title": "5",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3b9de5a07117b11e1865",
+                                    "title": "5",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3b9de5a07117b11e1866",
+                                    "title": "5",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            6
+                        ]
+                    },
+                    {
+                        "_id": "661b3c4ae5a07117b11e1880",
+                        "sort_order": 2.2,
+                        "categories": [],
+                        "prefix": "A2",
+                        "title": "Sandbag Over Head Press",
+                        "exercise_progress_type": "app_progressive",
+                        "exercise_id": "69651e9fcca4b455bc2d0fdb",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b3c4ae5a07117b11e1884",
+                                "workout_id": "661b3c4ae5a07117b11e1880",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "rest_time_after_exercise": 90,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66176327eb5488ec0454ae09",
+                                    "media": "videos/video_gallery/1712808743000_0_OH press demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808743000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176374eb5488ec0454ae16",
+                                    "media": "videos/video_gallery/1712808820000_0_OH press_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808820000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fdb",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Over Head Press",
+                                "progression_exercise_name": "Sand Bag Overhead Press"
+                            },
+                            {
+                                "_id": "661b419be5a07117b11e1b86",
+                                "workout_id": "661b3c4ae5a07117b11e1880",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 2,
+                                "demoVideoData": {
+                                    "_id": "66176327eb5488ec0454ae09",
+                                    "media": "videos/video_gallery/1712808743000_0_OH press demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808743000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176374eb5488ec0454ae16",
+                                    "media": "videos/video_gallery/1712808820000_0_OH press_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808820000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fdb",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Over Head Press",
+                                "progression_exercise_name": "Sand Bag Overhead Press"
+                            },
+                            {
+                                "_id": "661b41cde5a07117b11e1c5f",
+                                "workout_id": "661b3c4ae5a07117b11e1880",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 3,
+                                "demoVideoData": {
+                                    "_id": "66176327eb5488ec0454ae09",
+                                    "media": "videos/video_gallery/1712808743000_0_OH press demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808743000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176374eb5488ec0454ae16",
+                                    "media": "videos/video_gallery/1712808820000_0_OH press_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808820000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fdb",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Over Head Press",
+                                "progression_exercise_name": "Sand Bag Overhead Press"
+                            },
+                            {
+                                "_id": "661b427ae5a07117b11e1cdd",
+                                "workout_id": "661b3c4ae5a07117b11e1880",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 4,
+                                "demoVideoData": {
+                                    "_id": "66176327eb5488ec0454ae09",
+                                    "media": "videos/video_gallery/1712808743000_0_OH press demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808743000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176374eb5488ec0454ae16",
+                                    "media": "videos/video_gallery/1712808820000_0_OH press_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808820000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fdb",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Over Head Press",
+                                "progression_exercise_name": "Sand Bag Overhead Press"
+                            },
+                            {
+                                "_id": "661b429ee5a07117b11e1cf6",
+                                "workout_id": "661b3c4ae5a07117b11e1880",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 5,
+                                "demoVideoData": {
+                                    "_id": "66176327eb5488ec0454ae09",
+                                    "media": "videos/video_gallery/1712808743000_0_OH press demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808743000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176374eb5488ec0454ae16",
+                                    "media": "videos/video_gallery/1712808820000_0_OH press_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808820000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fdb",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Over Head Press",
+                                "progression_exercise_name": "Sand Bag Overhead Press"
+                            },
+                            {
+                                "_id": "661b42c4e5a07117b11e1d19",
+                                "workout_id": "661b3c4ae5a07117b11e1880",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 6,
+                                "demoVideoData": {
+                                    "_id": "66176327eb5488ec0454ae09",
+                                    "media": "videos/video_gallery/1712808743000_0_OH press demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808743000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66176374eb5488ec0454ae16",
+                                    "media": "videos/video_gallery/1712808820000_0_OH press_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712808820000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fdb",
+                                "prefix": "A2",
+                                "exercise_name": "Sandbag Over Head Press",
+                                "progression_exercise_name": "Sand Bag Overhead Press"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 6,
+                        "allProgression": {
+                            "_id": "661b3c4ae5a07117b11e1884",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "rest_time_after_exercise": 90,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66176327eb5488ec0454ae09",
+                                "media": "videos/video_gallery/1712808743000_0_OH press demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712808743000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66176374eb5488ec0454ae16",
+                                "media": "videos/video_gallery/1712808820000_0_OH press_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712808820000_0_thumbnail_0.png"
+                            },
+                            "prefix": "A2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fdb",
+                            "exercise_name": "Sandbag Over Head Press",
+                            "progression_exercise_name": "Sand Bag Overhead Press",
+                            "demo_video_gallery_id": "66176327eb5488ec0454ae09",
+                            "instruct_video_gallery_id": "66176374eb5488ec0454ae16",
+                            "sets": [
+                                {
+                                    "_id": "661b3c5be5a07117b11e188f",
+                                    "title": "5",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3c5be5a07117b11e1890",
+                                    "title": "5",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3c5be5a07117b11e1891",
+                                    "title": "5",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            6
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            },
+            {
+                "_id": "661b0a9ae5a07117b11dcf15",
+                "title": "ACCESSORY: Rest 60 sec after exercise 3",
+                "sort_order": 3,
+                "session_stage_detail": {
+                    "_id": "695e2b0af0bd1bca53affacc",
+                    "title": "Accessory",
+                    "status": 1,
+                    "created_on": 1767779082,
+                    "updated_on": 1767779082,
+                    "__v": 0
+                },
+                "allExercise": [
+                    {
+                        "_id": "661b3ca4e5a07117b11e18aa",
+                        "sort_order": 3.1,
+                        "categories": [],
+                        "prefix": "B1",
+                        "title": "Sandbag Bench Press",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fd3",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b3ca4e5a07117b11e18ae",
+                                "workout_id": "661b3ca4e5a07117b11e18aa",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": true,
+                                "demoVideoData": {
+                                    "_id": "66175d13eb5488ec04546edf",
+                                    "media": "videos/video_gallery/1712807186000_0_bench press demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807186000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175d46eb5488ec045480d5",
+                                    "media": "videos/video_gallery/1712807237000_0_bench press_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712807237000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fd3",
+                                "prefix": "B1",
+                                "exercise_name": "Sandbag Bench Press",
+                                "progression_exercise_name": "Sandbag Bench Press"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b3ca4e5a07117b11e18ae",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": true,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175d13eb5488ec04546edf",
+                                "media": "videos/video_gallery/1712807186000_0_bench press demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712807186000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175d46eb5488ec045480d5",
+                                "media": "videos/video_gallery/1712807237000_0_bench press_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712807237000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B1",
+                            "exercise_id": "69651e9fcca4b455bc2d0fd3",
+                            "exercise_name": "Sandbag Bench Press",
+                            "progression_exercise_name": "Sandbag Bench Press",
+                            "demo_video_gallery_id": "66175d13eb5488ec04546edf",
+                            "instruct_video_gallery_id": "66175d46eb5488ec045480d5",
+                            "sets": [
+                                {
+                                    "_id": "661b3cc2e5a07117b11e190a",
+                                    "title": "8 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3cc2e5a07117b11e190b",
+                                    "title": "8 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3cc2e5a07117b11e190c",
+                                    "title": "8 - 12",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661b3d67e5a07117b11e1925",
+                        "sort_order": 3.2,
+                        "categories": [],
+                        "prefix": "B2",
+                        "title": "Bear Hug Back Lunge",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fda",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b3d67e5a07117b11e1929",
+                                "workout_id": "661b3d67e5a07117b11e1925",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "distance_in_meters": null,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66175a8ceb5488ec04546cfe",
+                                    "media": "videos/video_gallery/1712806539000_0_bear back lunge demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806539000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175ad2eb5488ec04546d03",
+                                    "media": "videos/video_gallery/1712806609000_0_bear back lunge_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806609000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fda",
+                                "prefix": "B2",
+                                "exercise_name": "Bear Hug Back Lunge",
+                                "progression_exercise_name": "Bear Hug Back Lunge"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b3d67e5a07117b11e1929",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "distance_in_meters": null,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175a8ceb5488ec04546cfe",
+                                "media": "videos/video_gallery/1712806539000_0_bear back lunge demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712806539000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175ad2eb5488ec04546d03",
+                                "media": "videos/video_gallery/1712806609000_0_bear back lunge_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712806609000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fda",
+                            "exercise_name": "Bear Hug Back Lunge",
+                            "progression_exercise_name": "Bear Hug Back Lunge",
+                            "demo_video_gallery_id": "66175a8ceb5488ec04546cfe",
+                            "instruct_video_gallery_id": "66175ad2eb5488ec04546d03",
+                            "sets": [
+                                {
+                                    "_id": "661b3de4e5a07117b11e1963",
+                                    "title": "6 - 10 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3de4e5a07117b11e1962",
+                                    "title": "6 - 10 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3de4e5a07117b11e1961",
+                                    "title": "6 - 10 ",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    },
+                    {
+                        "_id": "661b3da9e5a07117b11e1940",
+                        "sort_order": 3.3,
+                        "categories": [],
+                        "prefix": "B2",
+                        "title": "Atlas Carry",
+                        "exercise_progress_type": "fixed",
+                        "exercise_id": "69651e9fcca4b455bc2d0fc0",
+                        "progressLevel": [],
+                        "all_progressions": [
+                            {
+                                "_id": "661b3da9e5a07117b11e1944",
+                                "workout_id": "661b3da9e5a07117b11e1940",
+                                "workout_count": 1,
+                                "belt_level": "",
+                                "note": "",
+                                "level": 0,
+                                "sort_order": 1,
+                                "rest_time_after_exercise": 60,
+                                "distance_in_meters": 20,
+                                "is_single_side": false,
+                                "demoVideoData": {
+                                    "_id": "66175855eb5488ec045469aa",
+                                    "media": "videos/video_gallery/1712805972000_0_atlas carry demo.mp4",
+                                    "thumbnail": "videos/thumbnail/1712805972000_0_thumbnail_0.png"
+                                },
+                                "instructVideoData": {
+                                    "_id": "66175888eb5488ec045469af",
+                                    "media": "videos/video_gallery/1712806023000_0_atlas carry_inst.mp4",
+                                    "thumbnail": "videos/thumbnail/1712806023000_0_thumbnail_0.png"
+                                },
+                                "exercise_id": "69651e9fcca4b455bc2d0fc0",
+                                "prefix": "B2",
+                                "exercise_name": "Atlas Carry",
+                                "progression_exercise_name": "Atlas Carry"
+                            }
+                        ],
+                        "progressionSortOrder": 1,
+                        "progress_data": null,
+                        "current_progress_level": 0,
+                        "total_progressions": 1,
+                        "allProgression": {
+                            "_id": "661b3da9e5a07117b11e1944",
+                            "workout_count": 1,
+                            "level": 0,
+                            "sort_order": 1,
+                            "rest_time_after_exercise": 60,
+                            "distance_in_meters": 20,
+                            "is_single_side": false,
+                            "categories": [],
+                            "demoVideoData": {
+                                "_id": "66175855eb5488ec045469aa",
+                                "media": "videos/video_gallery/1712805972000_0_atlas carry demo.mp4",
+                                "thumbnail": "videos/thumbnail/1712805972000_0_thumbnail_0.png"
+                            },
+                            "instructVideoData": {
+                                "_id": "66175888eb5488ec045469af",
+                                "media": "videos/video_gallery/1712806023000_0_atlas carry_inst.mp4",
+                                "thumbnail": "videos/thumbnail/1712806023000_0_thumbnail_0.png"
+                            },
+                            "prefix": "B2",
+                            "exercise_id": "69651e9fcca4b455bc2d0fc0",
+                            "exercise_name": "Atlas Carry",
+                            "progression_exercise_name": "Atlas Carry",
+                            "demo_video_gallery_id": "66175855eb5488ec045469aa",
+                            "instruct_video_gallery_id": "66175888eb5488ec045469af",
+                            "sets": [
+                                {
+                                    "_id": "661b3dc7e5a07117b11e1951",
+                                    "title": "1",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3dc7e5a07117b11e194f",
+                                    "title": "1",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                },
+                                {
+                                    "_id": "661b3dc7e5a07117b11e1950",
+                                    "title": "1",
+                                    "note": "",
+                                    "time_in_seconds": null,
+                                    "weight_type": "fixed_weight",
+                                    "weight_value": 20,
+                                    "setComplete": []
+                                }
+                            ],
+                            "exerciseCompleted": false
+                        },
+                        "progressCompleted": false,
+                        "lastProgression": [
+                            1
+                        ]
+                    }
+                ],
+                "wholeExerciseComplete": false
+            }
+        ],
+        "canCompleteSession": false,
+        "isAlreadyCompleted": 0
+    }
+}

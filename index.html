@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f59e0b" />
+    <title>Sandbag Program Tracker</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="program-rail">
+        <div class="rail-header">
+          <p class="eyebrow">Sandbag Program</p>
+          <h2>Progression</h2>
+        </div>
+        <div id="program-rail" class="program-rail-list"></div>
+      </aside>
+
+      <main class="workout-panel">
+        <div class="top-bar">
+          <div>
+            <p id="program-label" class="program-label">Program</p>
+            <h1 id="workout-title">Workout</h1>
+          </div>
+          <div class="controls">
+            <button id="next-workout" class="primary-btn">Next workout</button>
+            <button id="reset-progress" class="secondary-btn">Reset</button>
+          </div>
+        </div>
+
+        <div class="mobile-workout-picker">
+          <label for="workout-select" class="mobile-picker-label">Workout</label>
+          <select id="workout-select" aria-label="Select workout"></select>
+        </div>
+
+        <div id="rep-summary" class="rep-summary"></div>
+        <div id="program-status" class="status-banner"></div>
+        <div id="history-list" class="history-list"></div>
+        <div id="exercise-list" class="exercise-list"></div>
+
+        <button id="complete-workout" class="submit-btn" disabled>Submit completed workout</button>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
