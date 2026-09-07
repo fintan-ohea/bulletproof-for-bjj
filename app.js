@@ -29,7 +29,14 @@ const state = {
   currentIndex: 0,
   completed: {},
   workoutRoundCounts: {},
-  history: []
+  history: [],
+  primaryTimer: {
+    intervalId: null,
+    duration: 0,
+    remaining: 0,
+    lastBeepSecond: null,
+    element: null
+  }
 };
 
 function loadState() {
@@ -79,6 +86,8 @@ function getPrimaryPatternForWorkout(workout) {
   return PRIMARY_PATTERNS[index] || PRIMARY_PATTERNS[0];
 }
 
+const VIDEO_BASE_URL = 'https://d3742cffkcu4i8.cloudfront.net/';
+
 function parseSetLabel(sets) {
   if (!Array.isArray(sets) || sets.length === 0) {
     return 'Working reps';
@@ -92,6 +101,55 @@ function parseSetLabel(sets) {
   return labels.length ? labels.join(' • ') : 'Working reps';
 }
 
+function normalizeVideoUrl(mediaUrl) {
+  if (!mediaUrl) {
+    return '';
+  }
+
+  const trimmed = String(mediaUrl).trim();
+  if (!trimmed) {
+    return '';
+  }
+
+  if (/^https?:\/\//i.test(trimmed)) {
+    return trimmed;
+  }
+
+  return new URL(trimmed, VIDEO_BASE_URL).toString();
+}
+
+function parseBlockRestLabel(blockTitle = '') {
+  const match = blockTitle.match(/rest\s+(\d+)\s*sec(?:\s+after\s+exercise\s*(\d+))?/i);
+  if (!match) {
+    return null;
+  }
+
+  const seconds = Number(match[1]);
+  const afterExercise = match[2] ? Number(match[2]) : null;
+
+  return {
+    seconds,
+    label: afterExercise ? `Rest ${seconds} sec after exercise ${afterExercise}` : `Rest ${seconds} sec`
+  };
+}
+
+function getExerciseRestLabel(block, exercise) {
+  const progression = exercise.allProgression || exercise.allProgressions?.[0] || {};
+  const progressionRest = progression.rest_time_after_exercise ?? progression.restTimeAfterExercise ?? progression.rest_time ?? progression.restTime ?? progression.rest_after_exercise;
+  const fromProgression = Number(progressionRest);
+
+  if (Number.isFinite(fromProgression) && fromProgression > 0) {
+    return `Rest ${fromProgression} sec`;
+  }
+
+  const blockRest = parseBlockRestLabel(block.title || '');
+  if (blockRest) {
+    return blockRest.label;
+  }
+
+  return '';
+}
+
 function flattenExercises(workoutData) {
   const exercises = [];
 
@@ -99,13 +157,20 @@ function flattenExercises(workoutData) {
     const allExercise = block.allExercise || [];
     allExercise.forEach((exercise) => {
       const progression = exercise.allProgression || exercise.allProgressions?.[0] || {};
+      const restLabel = getExerciseRestLabel(block, exercise);
+      const demoVideo = progression.demoVideoData || exercise.demoVideoData || {};
+      const instructVideo = progression.instructVideoData || exercise.instructVideoData || {};
+
       exercises.push({
         id: exercise._id || `${block._id}-${exercise.title}`,
         title: exercise.title || 'Exercise',
         phase: block.session_stage_detail?.title || 'Workout',
         notes: progression.note || '',
         setLabel: parseSetLabel(progression.sets || []),
-        sets: progression.sets || []
+        sets: progression.sets || [],
+        restLabel,
+        demoMediaUrl: normalizeVideoUrl(demoVideo.media || ''),
+        instructMediaUrl: normalizeVideoUrl(instructVideo.media || '')
       });
     });
   });
@@ -208,6 +273,125 @@ function updateSubmitAvailability() {
   submitButton.disabled = allSetCheckboxes.length === 0 || [...allSetCheckboxes].some((box) => !box.checked);
 }
 
+function openVideoModal(videoUrl, label) {
+  const existingModal = document.getElementById('video-modal');
+  if (existingModal) {
+    existingModal.remove();
+  }
+
+  const modal = document.createElement('div');
+  modal.id = 'video-modal';
+  modal.className = 'video-modal';
+  modal.innerHTML = `
+    <div class="video-modal-backdrop" data-close-modal="true"></div>
+    <div class="video-modal-dialog" role="dialog" aria-modal="true" aria-label="${label}">
+      <div class="video-modal-header">
+        <h3>${label}</h3>
+        <button type="button" class="video-close-btn" aria-label="Close video">✕</button>
+      </div>
+      <video class="video-player" controls playsinline autoplay>
+        <source src="${videoUrl}" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+  `;
+
+  const closeButton = modal.querySelector('.video-close-btn');
+  const backdrop = modal.querySelector('[data-close-modal="true"]');
+
+  closeButton.addEventListener('click', () => modal.remove());
+  backdrop.addEventListener('click', () => modal.remove());
+  modal.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      modal.remove();
+    }
+  });
+  modal.tabIndex = -1;
+  modal.focus();
+  document.body.appendChild(modal);
+}
+
+function formatTimerDisplay(secondsLeft) {
+  if (secondsLeft <= 0) {
+    return 'Rest complete';
+  }
+
+  const minutes = Math.floor(secondsLeft / 60);
+  const seconds = secondsLeft % 60;
+
+  if (minutes > 0) {
+    return `${minutes}:${String(seconds).padStart(2, '0')}`;
+  }
+
+  return `${seconds}s`;
+}
+
+function beepTimerTone() {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass) {
+    return;
+  }
+
+  const audioContext = new AudioContextClass();
+  const oscillator = audioContext.createOscillator();
+  const gainNode = audioContext.createGain();
+
+  oscillator.type = 'square';
+  oscillator.frequency.value = 880;
+  gainNode.gain.value = 0.04;
+
+  oscillator.connect(gainNode);
+  gainNode.connect(audioContext.destination);
+
+  oscillator.start();
+  oscillator.stop(audioContext.currentTime + 0.08);
+  gainNode.gain.exponentialRampToValueAtTime(0.0001, audioContext.currentTime + 0.1);
+}
+
+function stopPrimaryTimer() {
+  if (state.primaryTimer.intervalId) {
+    clearInterval(state.primaryTimer.intervalId);
+    state.primaryTimer.intervalId = null;
+  }
+  state.primaryTimer.lastBeepSecond = null;
+}
+
+function startPrimaryTimer(seconds) {
+  stopPrimaryTimer();
+  state.primaryTimer.duration = seconds;
+  state.primaryTimer.remaining = seconds;
+
+  const timerElement = document.getElementById('primary-rest-timer');
+  if (!timerElement) {
+    return;
+  }
+
+  const startTime = Date.now();
+  const updateTimer = () => {
+    const elapsedMs = Date.now() - startTime;
+    const remainingSeconds = Math.max(0, Math.ceil((seconds * 1000 - elapsedMs) / 1000));
+    state.primaryTimer.remaining = remainingSeconds;
+    timerElement.textContent = formatTimerDisplay(remainingSeconds);
+
+    if (remainingSeconds <= 5 && remainingSeconds > 0) {
+      if (state.primaryTimer.lastBeepSecond !== remainingSeconds) {
+        beepTimerTone();
+        state.primaryTimer.lastBeepSecond = remainingSeconds;
+      }
+    } else if (remainingSeconds > 5) {
+      state.primaryTimer.lastBeepSecond = null;
+    }
+
+    if (remainingSeconds <= 0) {
+      stopPrimaryTimer();
+      timerElement.textContent = 'Rest complete';
+    }
+  };
+
+  updateTimer();
+  state.primaryTimer.intervalId = setInterval(updateTimer, 250);
+}
+
 function renderExerciseList() {
   const exerciseList = document.getElementById('exercise-list');
   const workout = state.workouts[state.currentIndex];
@@ -285,13 +469,43 @@ function renderExerciseList() {
         })
         .join('');
 
+      const mediaButtons = [];
+      if (exercise.demoMediaUrl) {
+        mediaButtons.push(`
+          <button
+            type="button"
+            class="video-btn demo-btn"
+            data-video-url="${exercise.demoMediaUrl}"
+            data-video-label="${exercise.title} demo video"
+            aria-label="Play demo video for ${exercise.title}"
+            title="Demo video"
+          >▶</button>
+        `);
+      }
+      if (exercise.instructMediaUrl) {
+        mediaButtons.push(`
+          <button
+            type="button"
+            class="video-btn instruct-btn"
+            data-video-url="${exercise.instructMediaUrl}"
+            data-video-label="${exercise.title} instruction video"
+            aria-label="Play instruction video for ${exercise.title}"
+            title="Instruction video"
+          >▣</button>
+        `);
+      }
+
       container.innerHTML = `
         <div class="exercise-info">
-          <h3 class="exercise-title">${exercise.title}</h3>
+          <div class="exercise-heading-row">
+            <h3 class="exercise-title">${exercise.title}</h3>
+            ${mediaButtons.length ? `<div class="exercise-video-actions">${mediaButtons.join('')}</div>` : ''}
+          </div>
           <div class="exercise-meta">
             <span>${exercise.phase}</span>
             <span>•</span>
             <span>${exercise.setLabel}</span>
+            ${exercise.restLabel ? `<span>•</span><span>${exercise.restLabel}</span>` : ''}
           </div>
           ${exercise.notes ? `<div class="exercise-notes">${exercise.notes}</div>` : ''}
           <div class="set-list">${setRows}</div>
@@ -301,6 +515,13 @@ function renderExerciseList() {
 
       const checkboxes = container.querySelectorAll('input[type="checkbox"]');
       const markAllButton = container.querySelector('.mark-all-btn');
+      const mediaActionButtons = container.querySelectorAll('.video-btn');
+
+      mediaActionButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          openVideoModal(button.dataset.videoUrl, button.dataset.videoLabel);
+        });
+      });
 
       checkboxes.forEach((checkbox) => {
         checkbox.addEventListener('change', () => {
@@ -339,6 +560,29 @@ function renderExerciseList() {
     });
 
     section.appendChild(exerciseGroup);
+
+    if (phaseTitle === 'Primary') {
+      const timerControls = document.createElement('div');
+      timerControls.className = 'primary-rest-timer-section';
+      timerControls.innerHTML = `
+        <div class="primary-rest-timer-header">
+          <span>Rest timer</span>
+          <strong id="primary-rest-timer">Ready</strong>
+        </div>
+        <div class="primary-rest-timer-actions">
+          <button type="button" class="rest-timer-btn" data-seconds="60">60 sec</button>
+          <button type="button" class="rest-timer-btn" data-seconds="90">90 sec</button>
+        </div>
+      `;
+      const timerButtons = timerControls.querySelectorAll('.rest-timer-btn');
+      timerButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          startPrimaryTimer(Number(button.dataset.seconds));
+        });
+      });
+      section.appendChild(timerControls);
+    }
+
     exerciseList.appendChild(section);
   });
 
@@ -363,22 +607,30 @@ function renderHistoryList() {
     return;
   }
 
-  if (!state.history.length) {
-    historyList.innerHTML = '<div class="history-item"><span>No completed workouts yet</span><small>Start your first round</small></div>';
-    return;
-  }
-
   const recent = state.history.slice(-6).reverse();
-  historyList.innerHTML = recent
-    .map(
-      (entry) => `
-        <div class="history-item">
-          <span>${entry.title}</span>
-          <small>${entry.pattern} • ${new Date(entry.date).toLocaleDateString()}</small>
-        </div>
-      `
-    )
-    .join('');
+  const historyItems = recent.length
+    ? recent
+        .map(
+          (entry) => `
+            <div class="history-item">
+              <span>${entry.title}</span>
+              <small>${entry.pattern} • ${new Date(entry.date).toLocaleDateString()}</small>
+            </div>
+          `
+        )
+        .join('')
+    : '<div class="history-item"><span>No completed workouts yet</span><small>Start your first round</small></div>';
+
+  historyList.innerHTML = `
+    <details class="history-panel" ${recent.length ? 'open' : ''}>
+      <summary class="history-panel-summary">
+        <span>Workout history (${recent.length})</span>
+      </summary>
+      <div class="history-panel-content">
+        ${historyItems}
+      </div>
+    </details>
+  `;
 }
 
 function renderCurrentWorkout() {
@@ -507,7 +759,9 @@ function resetProgress() {
 }
 
 async function init() {
-  if ('serviceWorker' in navigator) {
+  const isLocalhost = ['localhost', '127.0.0.1', ''].includes(window.location.hostname);
+
+  if ('serviceWorker' in navigator && !isLocalhost) {
     navigator.serviceWorker.register('./sw.js').catch((error) => {
       console.warn('Service worker registration failed:', error);
     });

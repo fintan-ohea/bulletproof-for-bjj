@@ -226,8 +226,59 @@ input {
 
 .history-list {
   margin-bottom: 18px;
+}
+
+.history-panel {
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 12px;
+  background: rgba(15, 23, 42, 0.4);
+  overflow: hidden;
+}
+
+.history-panel-summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  padding: 12px 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.history-panel-summary::-webkit-details-marker {
+  display: none;
+}
+
+.history-panel-summary::after {
+  content: '▾';
+  color: #fbbf24;
+  font-size: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.history-panel[open] .history-panel-summary::after {
+  transform: rotate(180deg);
+}
+
+.history-panel-count {
+  min-width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.18);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  color: #fef3c7;
+  font-size: 0.8rem;
+}
+
+.history-panel-content {
   display: grid;
   gap: 8px;
+  padding: 0 12px 12px;
 }
 
 .history-item {
@@ -236,7 +287,7 @@ input {
   gap: 12px;
   padding: 10px 12px;
   border-radius: 10px;
-  background: rgba(15, 23, 42, 0.4);
+  background: rgba(15, 23, 42, 0.6);
   border: 1px solid rgba(148, 163, 184, 0.18);
   color: var(--text);
   font-size: 0.95rem;
@@ -312,9 +363,41 @@ input {
   flex-shrink: 0;
 }
 
+.exercise-heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
 .exercise-title {
   margin: 0;
   font-size: 1.04rem;
+}
+
+.exercise-video-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.video-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  background: rgba(245, 158, 11, 0.14);
+  color: #fef3c7;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-btn:hover {
+  background: rgba(245, 158, 11, 0.22);
 }
 
 .exercise-meta {
@@ -330,6 +413,105 @@ input {
   margin-top: 8px;
   color: #e2e8f0;
   line-height: 1.5;
+}
+
+.primary-rest-timer-section {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  background: rgba(245, 158, 11, 0.07);
+}
+
+.primary-rest-timer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  color: #fef3c7;
+  font-weight: 700;
+}
+
+#primary-rest-timer {
+  font-size: 1.2rem;
+  color: #fbbf24;
+}
+
+.primary-rest-timer-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.rest-timer-btn {
+  border: 1px solid rgba(245, 158, 11, 0.6);
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(249, 115, 22, 0.16));
+  color: #fff7ed;
+  border-radius: 10px;
+  padding: 9px 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.rest-timer-btn:hover {
+  transform: translateY(-1px);
+}
+
+.video-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.82);
+}
+
+.video-modal-dialog {
+  position: relative;
+  width: min(90vw, 900px);
+  background: #0f172a;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.5);
+  overflow: hidden;
+}
+
+.video-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+  background: rgba(15, 23, 42, 0.95);
+}
+
+.video-modal-header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.video-close-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  background: rgba(148, 163, 184, 0.08);
+  color: var(--text);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.video-player {
+  display: block;
+  width: 100%;
+  max-height: 78vh;
+  background: #000;
 }
 
 @media (max-width: 760px) {

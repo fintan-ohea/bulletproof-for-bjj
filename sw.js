@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sandbag-program-v1';
+const CACHE_NAME = 'sandbag-program-v2';
 const APP_SHELL = [
   './',
   './index.html',
