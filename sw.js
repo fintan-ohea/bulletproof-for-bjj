@@ -1,10 +1,12 @@
-const CACHE_NAME = 'sandbag-program-v4';
+const CACHE_NAME = 'sandbag-program-v5';
 const APP_SHELL = [
   './',
   './index.html',
   './styles.css',
   './app.js',
-  './manifest.webmanifest'
+  './manifest.webmanifest',
+  './icons/icon-192.png',
+  './icons/icon.svg'
 ];
 
 self.addEventListener('install', (event) => {
