@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#f59e0b" />
     <title>Sandbag Program Tracker</title>
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=2" />
+    <link rel="stylesheet" href="styles.css?v=3" />
   </head>
   <body>
     <div class="app-shell">
@@ -26,7 +26,10 @@
           </div>
           <div class="controls">
             <button id="next-workout" class="primary-btn">Next workout</button>
+            <button id="export-progress" class="secondary-btn">Export</button>
+            <button id="import-progress" class="secondary-btn">Import</button>
             <button id="reset-progress" class="secondary-btn">Reset</button>
+            <input id="import-file" type="file" accept="application/json,.json" hidden />
           </div>
         </div>
 
@@ -44,6 +47,6 @@
       </main>
     </div>
 
-    <script src="app.js?v=2"></script>
+    <script src="app.js?v=3"></script>
   </body>
 </html>

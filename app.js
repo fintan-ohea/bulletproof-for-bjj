@@ -64,16 +64,17 @@ function loadState() {
   }
 }
 
+function getProgressSnapshot() {
+  return {
+    currentIndex: state.currentIndex,
+    completed: state.completed,
+    workoutRoundCounts: state.workoutRoundCounts,
+    history: state.history
+  };
+}
+
 function persistState() {
-  localStorage.setItem(
-    STORAGE_KEY,
-    JSON.stringify({
-      currentIndex: state.currentIndex,
-      completed: state.completed,
-      workoutRoundCounts: state.workoutRoundCounts,
-      history: state.history
-    })
-  );
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(getProgressSnapshot()));
 }
 
 function getWorkoutKey(workout) {
@@ -758,6 +759,86 @@ function resetProgress() {
   window.alert('Progress reset. You are back at the start of the sandbag program.');
 }
 
+const EXPORT_FORMAT = 'sandbag-progress';
+
+async function exportProgress() {
+  const payload = {
+    format: EXPORT_FORMAT,
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    progress: getProgressSnapshot()
+  };
+  const json = JSON.stringify(payload, null, 2);
+  const fileName = `sandbag-progress-${new Date().toISOString().slice(0, 10)}.json`;
+  const file = new File([json], fileName, { type: 'application/json' });
+
+  // On phones, the share sheet is the easiest way to send the file to another device.
+  if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    try {
+      await navigator.share({ files: [file], title: 'Sandbag progress' });
+      return;
+    } catch (error) {
+      if (error.name === 'AbortError') {
+        return;
+      }
+      console.warn('Share failed, falling back to download.', error);
+    }
+  }
+
+  const url = URL.createObjectURL(file);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+function parseImportedProgress(text) {
+  const parsed = JSON.parse(text);
+  const progress = parsed && parsed.format === EXPORT_FORMAT ? parsed.progress : parsed;
+
+  const isObject = (value) => value !== null && typeof value === 'object' && !Array.isArray(value);
+  if (
+    !isObject(progress) ||
+    !Number.isInteger(progress.currentIndex) ||
+    !isObject(progress.completed || {}) ||
+    !isObject(progress.workoutRoundCounts || {}) ||
+    !Array.isArray(progress.history || [])
+  ) {
+    throw new Error('File does not contain sandbag progress.');
+  }
+
+  return {
+    currentIndex: Math.min(Math.max(progress.currentIndex, 0), Math.max(state.workouts.length - 1, 0)),
+    completed: progress.completed || {},
+    workoutRoundCounts: progress.workoutRoundCounts || {},
+    history: progress.history || []
+  };
+}
+
+async function importProgressFile(file) {
+  let progress;
+  try {
+    progress = parseImportedProgress(await file.text());
+  } catch (error) {
+    console.warn('Import failed.', error);
+    window.alert('That file could not be imported. Make sure it is a progress file exported from this app.');
+    return;
+  }
+
+  const confirmed = window.confirm('Importing will replace the progress on this device. Continue?');
+  if (!confirmed) {
+    return;
+  }
+
+  Object.assign(state, progress);
+  persistState();
+  render();
+  window.alert('Progress imported.');
+}
+
 async function init() {
   const isLocalhost = ['localhost', '127.0.0.1', ''].includes(window.location.hostname);
 
@@ -778,6 +859,17 @@ async function init() {
   nextWorkoutButton.addEventListener('click', moveToNextWorkout);
   completeWorkoutButton.addEventListener('click', completeWorkout);
   resetButton.addEventListener('click', resetProgress);
+
+  const importFileInput = document.getElementById('import-file');
+  document.getElementById('export-progress').addEventListener('click', exportProgress);
+  document.getElementById('import-progress').addEventListener('click', () => importFileInput.click());
+  importFileInput.addEventListener('change', async () => {
+    const [file] = importFileInput.files;
+    importFileInput.value = '';
+    if (file) {
+      await importProgressFile(file);
+    }
+  });
   workoutSelect.addEventListener('change', (event) => {
     state.currentIndex = Number(event.target.value);
     persistState();
