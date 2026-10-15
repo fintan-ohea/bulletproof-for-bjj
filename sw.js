@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sandbag-program-v3';
+const CACHE_NAME = 'sandbag-program-v4';
 const APP_SHELL = [
   './',
   './index.html',
@@ -27,24 +27,30 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
+// Network first so updates show up on the next open; fall back to the cache when offline.
+// Only the app's own files are cached — exercise videos stream from the CDN.
 self.addEventListener('fetch', (event) => {
-  if (event.request.method !== 'GET') {
+  const url = new URL(event.request.url);
+  if (event.request.method !== 'GET' || url.origin !== self.location.origin) {
     return;
   }
 
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-
-      return fetch(event.request)
-        .then((networkResponse) => {
+    fetch(event.request)
+      .then((networkResponse) => {
+        if (networkResponse.ok) {
           const responseClone = networkResponse.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
-          return networkResponse;
+        }
+        return networkResponse;
+      })
+      .catch(() =>
+        caches.match(event.request, { ignoreSearch: true }).then((cachedResponse) => {
+          if (cachedResponse) {
+            return cachedResponse;
+          }
+          return event.request.mode === 'navigate' ? caches.match('./index.html') : Response.error();
         })
-        .catch(() => cachedResponse);
-    })
+      )
   );
 });

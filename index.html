@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f59e0b" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b1222" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <title>Sandbag Program Tracker</title>
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="stylesheet" href="styles.css?v=3" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="stylesheet" href="styles.css?v=4" />
   </head>
   <body>
     <div class="app-shell">
@@ -20,33 +23,56 @@
 
       <main class="workout-panel">
         <div class="top-bar">
-          <div>
+          <div class="title-block">
             <p id="program-label" class="program-label">Program</p>
             <h1 id="workout-title">Workout</h1>
           </div>
           <div class="controls">
-            <button id="next-workout" class="primary-btn">Next workout</button>
-            <button id="export-progress" class="secondary-btn">Export</button>
-            <button id="import-progress" class="secondary-btn">Import</button>
-            <button id="reset-progress" class="secondary-btn">Reset</button>
-            <input id="import-file" type="file" accept="application/json,.json" hidden />
+            <button id="next-workout" class="secondary-btn" title="Skip to the next workout">Skip ›</button>
+            <div class="menu-wrap">
+              <button id="menu-toggle" class="icon-btn" aria-label="More options" aria-haspopup="true" aria-expanded="false">⋯</button>
+              <div id="app-menu" class="app-menu" role="menu" hidden>
+                <button id="export-progress" role="menuitem">⬆ Export progress</button>
+                <button id="import-progress" role="menuitem">⬇ Import progress</button>
+                <hr />
+                <button id="reset-progress" class="danger" role="menuitem">Reset all progress</button>
+              </div>
+            </div>
           </div>
+          <input id="import-file" type="file" accept="application/json,.json" hidden />
         </div>
 
         <div class="mobile-workout-picker">
-          <label for="workout-select" class="mobile-picker-label">Workout</label>
-          <select id="workout-select" aria-label="Select workout"></select>
+          <label for="workout-select" class="visually-hidden">Choose workout</label>
+          <select id="workout-select"></select>
         </div>
 
-        <div id="rep-summary" class="rep-summary"></div>
-        <div id="program-status" class="status-banner"></div>
+        <div id="rep-summary" class="progress-card"></div>
         <div id="history-list" class="history-list"></div>
         <div id="exercise-list" class="exercise-list"></div>
 
-        <button id="complete-workout" class="submit-btn" disabled>Submit completed workout</button>
+        <div class="submit-bar">
+          <button id="complete-workout" class="submit-btn" disabled>Complete workout</button>
+        </div>
       </main>
     </div>
 
-    <script src="app.js?v=3"></script>
+    <div id="rest-timer-bar" class="rest-timer-bar" role="timer" aria-live="polite">
+      <div class="rest-timer-fill" id="rest-timer-fill"></div>
+      <div class="rest-timer-content">
+        <div>
+          <span id="rest-timer-label" class="rest-timer-label">Resting</span>
+          <strong id="rest-timer-time" class="rest-timer-time">0:00</strong>
+        </div>
+        <div class="rest-timer-actions">
+          <button type="button" id="rest-timer-add">+15s</button>
+          <button type="button" id="rest-timer-stop" aria-label="Stop timer">✕</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="app.js?v=4"></script>
   </body>
 </html>
